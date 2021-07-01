@@ -5,5 +5,4 @@ class SearchForm(forms.Form):
     search_type = forms.ChoiceField(label = 'Music Type', choices = (
         ('Album', 'Album'),
         ('Track', 'Track'),
-        ('Artist', 'Artist')
     ))

@@ -109,20 +109,35 @@ def add(request):
                 res = requests.get(url=album_url, headers=headers)
                 album_json = json.dumps(res.json())
                 album = json.loads(album_json)
+                artist_uri = album['artists'][0]['id']
                 pp.pprint(album)
                 
-                artist, created = Artist.objects.get_or_create(name=album['artists'][0]['name'])
+                artist, created = Artist.objects.get_or_create(spotify_uri=artist_uri)
+                if created == True:
+                    artist_url = f'https://api.spotify.com/v1/artists/{artist_uri}?market=US'
+                    artist_res = requests.get(url=artist_url, headers=headers)
+                    artist_json = json.dumps(artist_res.json())
+                    this_artist = json.loads(artist_json)
+                    print(this_artist['name'])
+                    artist.name = this_artist['name']
+                    artist.spotify_link = this_artist['external_urls']['spotify']
+                    artist.artist_img = this_artist['images'][0]['url']
+                    artist.save()
+
+                    return redirect(f'/artist/create/{artist_uri}')
+
+                
                 print(artist, created)
                 
                 # pp.pprint(album['artists'][0]['href'])
 
-            elif search_type == 'Artist':
-                headers = {
-                    "Authorization": "Bearer " + token
-                }
-                artist_url = f'https://api.spotify.com/v1/artists/{uri}?market=US'
-                res = requests.get(url=artist_url, headers=headers)
-                print(json.dumps(res.json(), indent=2))
+            # elif search_type == 'Artist':
+            #     headers = {
+            #         "Authorization": "Bearer " + token
+            #     }
+            #     artist_url = f'https://api.spotify.com/v1/artists/{uri}?market=US'
+            #     res = requests.get(url=artist_url, headers=headers)
+            #     print(json.dumps(res.json(), indent=2))
 
 
             elif search_type == 'Track':

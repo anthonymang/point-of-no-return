@@ -2,7 +2,16 @@ from django.shortcuts import render, redirect
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from django.contrib.auth import authenticate, login, logout
 from django.http import HttpResponseRedirect
+from .forms import SearchForm
+import requests
+import base64
+import json
+import pprint
+from .models import *
 
+from decouple import config
+CLIENT_ID = config("CLIENT_ID")
+CLIENT_SECRET = config("CLIENT_SECRET")
 # Create your views here.
 
 def index(request):
@@ -67,3 +76,67 @@ def signup(request):
     else:
         form = UserCreationForm()
         return render(request, 'signup.html', {'form': form})
+
+def add(request):
+    if request.method == 'POST':
+        form = SearchForm(request.POST)
+        if form.is_valid():
+            uri = form.cleaned_data['URI']
+            search_type = form.cleaned_data['search_type']
+
+            url = 'https://accounts.spotify.com/api/token'
+            headers = {}
+            data = {}
+
+            message = f"{CLIENT_ID}:{CLIENT_SECRET}"
+            messageBytes = message.encode('ascii')
+            base64Bytes = base64.b64encode(messageBytes)
+            base64Message = base64Bytes.decode('ascii')
+
+            headers['Authorization'] = f'Basic {base64Message}'
+            data['grant_type'] = 'client_credentials'
+
+            r = requests.post(url, headers = headers, data=data)
+
+            token = r.json()['access_token']
+            pp = pprint.PrettyPrinter(indent=2)
+
+            if search_type == 'Album':
+                headers = {
+                    "Authorization": "Bearer " + token,
+                }
+                album_url = f'https://api.spotify.com/v1/albums/{uri}?market=US'
+                res = requests.get(url=album_url, headers=headers)
+                album_json = json.dumps(res.json())
+                album = json.loads(album_json)
+                pp.pprint(album)
+                
+                artist, created = Artist.objects.get_or_create(name=album['artists'][0]['name'])
+                print(artist, created)
+                
+                # pp.pprint(album['artists'][0]['href'])
+
+            elif search_type == 'Artist':
+                headers = {
+                    "Authorization": "Bearer " + token
+                }
+                artist_url = f'https://api.spotify.com/v1/artists/{uri}?market=US'
+                res = requests.get(url=artist_url, headers=headers)
+                print(json.dumps(res.json(), indent=2))
+
+
+            elif search_type == 'Track':
+                headers = {
+                    "Authorization": "Bearer " + token
+                }
+                track_url = f'https://api.spotify.com/v1/tracks/{uri}?market=US'
+                res = requests.get(url=track_url, headers=headers)
+                print(json.dumps(res.json(), indent=2))
+
+
+            
+            return redirect('/add')
+    else:
+        form = SearchForm()
+
+    return render(request, 'add.html', {'form': form})

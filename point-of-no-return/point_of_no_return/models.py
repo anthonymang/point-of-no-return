@@ -53,7 +53,6 @@ class Submission(models.Model):
 
 class Music(models.Model):
     name = models.CharField(blank =True, max_length=100)
-    release_year = models.IntegerField(blank =True)
     release_date = models.DateField(blank =True)
     released_by = models.CharField(blank =True, max_length=1000)
     description = models.CharField(blank =True, max_length=1000)
@@ -61,6 +60,7 @@ class Music(models.Model):
     bandcamp_embed = models.CharField(blank =True, max_length=1000)
     discogs_link = models.URLField(blank =True )
     genre = models.CharField(blank =True, max_length=1000)
+    spotify_uri = models.CharField(blank = True, max_length=100)
     album_art = models.URLField(blank = True, max_length=1000)
     release_type = models.CharField(blank =True, max_length=10, choices = release_types)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
@@ -71,5 +71,5 @@ class Music(models.Model):
 
 
     def __str__(self):
-        return (f'{self.name}, {self.release_year}')
+        return (f'{self.name}, {self.release_date}')
 

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Looks like that artist isn't in the database. Add the rest of their info here:</h2>
+    <form action="/artist/create/{{uri}}" method="POST">
+    {% csrf_token %}
+    {{form}}
+    {{ form.errors }}
+    {{ form.non_field_errors }}
+    <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

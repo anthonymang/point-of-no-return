@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from django.contrib.auth import authenticate, login, logout
 from django.http import HttpResponseRedirect
-from .forms import SearchForm
+from .forms import *
 import requests
 import base64
 import json
@@ -155,3 +155,33 @@ def add(request):
         form = SearchForm()
 
     return render(request, 'add.html', {'form': form})
+
+def artist_create(request, uri):
+    artist = Artist.objects.get(spotify_uri=uri)
+    print(artist)
+    if request.method == 'POST':
+        print('in post request')
+        form = ArtistCreateForm(request.POST, instance=artist)
+        if form.is_valid():
+            artist = form.save(commit=False)
+            # print('inside update')
+            # artist.location = form.cleaned_data['location']
+            # artist.bio = form.cleaned_data['bio']
+            # artist.bandcamp_link = form.cleaned_data['bandcamp_link']
+            # artist.instagram_link = form.cleaned_data['instagram_link']
+            # artist.discogs_link = form.cleaned_data['discogs_link']
+            # artist.spotify_embed = form.cleaned_data['spotify_embed']
+            # artist.tags = form.cleaned_data['tags']
+            # artist.save()
+            artist.save()
+            form.save_m2m()
+            return redirect('/add')
+        else:
+            print('form not valid')
+            print('Errors: ', form.errors, form.non_field_errors)
+            return redirect('/add')
+
+    else:
+        print(uri)
+        form = ArtistCreateForm()
+    return render(request, 'artist_create.html', {'form': form, 'uri':uri})

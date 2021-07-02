@@ -1,2 +1,2 @@
-web: gunicorn yourappname.wsgi
+web: gunicorn pointofnoreturn.wsgi
 release: python3 manage.py migrate

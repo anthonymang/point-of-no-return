@@ -14,8 +14,6 @@ from pathlib import Path
 import dj_database_url
 import django_heroku
 import os
-from os import environ
-
 
 
 from decouple import config
@@ -37,9 +35,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'pointofnoreturn.herokuapp.com'
+    'pointofnoreturn.herokuapp.com',
 ]
 
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # Application definition
 
@@ -56,6 +55,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>
+        {{ artist.name }} 
+
+    </h1>
+    {{ artist.spotify_embed | safe }}
+
+    <ul>
+        <li>{{ artist.bio }}</li>
+        <li>Location: {{ artist.location }}</li>
+        {% if artist.discogs_link %}
+        <li><a href="{{artist.discogs_link}}">Find on Discogs</a></li>
+        {% endif %}
+        {% if artist.bandcamp_link %}
+        <li><a href="{{artist.bandcamp_link}}">Find on Discogs</a></li>
+        {% endif %}
+        <li>
+            {% for tag in artist.tags.all %}
+            {{ tag }}
+            {% endfor %}
+        </li>
+    </ul>
+    {% for music in music %}
+    <a href="/music/{{music.spotify_uri}}">
+    <img src="{{music.album_art}}" alt="{{music.name}} album art">
+    {{ music.name }}
+    </a>
+    {% endfor %}
+
+</body>
+</html>

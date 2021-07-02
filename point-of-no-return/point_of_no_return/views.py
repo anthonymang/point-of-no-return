@@ -342,3 +342,11 @@ def music_show(request, uri):
     # print(artist)
 
     return render(request, 'music_show.html', {'music': music})
+
+
+def artist_show(request, uri):
+    artist = get_object_or_404(Artist, spotify_uri=uri)
+    music = Music.objects.filter(artist=artist)
+
+    return render(request, 'artist_show.html', {'artist': artist, 'music': music})
+

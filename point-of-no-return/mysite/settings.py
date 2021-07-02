@@ -13,6 +13,8 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 from pathlib import Path
 import dj_database_url
 import django_heroku
+import os
+from os import environ
 
 
 
@@ -46,7 +48,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'point_of_no_return',
+    'point-of-no-return.point_of_no_return',
     'taggit'
 ]
 
@@ -91,7 +93,7 @@ DATABASES = {
     }
 }
 
-DATABASES['default'] = dj_database_url.config
+DATABASES['default'] = dj_database_url.config()
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators

@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
+import dj_database_url
 
 from decouple import config
 SECRET_KEY = config("SECRET_KEY")
@@ -87,6 +88,7 @@ DATABASES = {
     }
 }
 
+DATABASES['default'] = dj_database_url.config
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators

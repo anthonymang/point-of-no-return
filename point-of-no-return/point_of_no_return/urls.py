@@ -11,6 +11,6 @@ urlpatterns = [
     path('artist/finish/<form_uri>/', views.music_create, name='music_create'),
     path('artist/create/<uri>/', views.artist_create, name='artist_create'),
     path('music/<uri>/', views.music_show, name='music_show'),
-    path('artist/<uri>/', views.artist_show, name='artist_show'),
+    path('artist/<uri>/', views.artist_show, name='artist_show')
 
 ]

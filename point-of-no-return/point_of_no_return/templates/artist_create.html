@@ -8,7 +8,7 @@
 </head>
 <body>
     <h2>Looks like that artist isn't in the database. Add the rest of their info here:</h2>
-    <form action="/artist/create/{{uri}}" method="POST">
+    <form action="/artist/create/{{uri}}/" method="POST">
     {% csrf_token %}
     {{form}}
     {{ form.errors }}

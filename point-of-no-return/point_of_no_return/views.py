@@ -281,24 +281,18 @@ def music_add(request, uri):
                 # music.curator = Curator.objects.get(user=request.user)
                 # music.artist.add(Artist.objects.get(spotify_uri=uri))
 
-                return redirect(f'/artist/new-music/{uri}/{form_uri}')
+                return redirect(f'/artist/finish/{form_uri}')
 
-            # if search_type == 'Track':
-            #     track_url = f'https://api.spotify.com/v1/tracks/{form_uri}?market=US'
-            #     res = requests.get(url=track_url, headers=headers)
-            #     track_json = json.dumps(res.json())
-            #     track = json.loads(track_json)
+            if search_type == 'Track':
+                track_url = f'https://api.spotify.com/v1/tracks/{form_uri}?market=US'
+                res = requests.get(url=track_url, headers=headers)
+                track_json = json.dumps(res.json())
+                track = json.loads(track_json)
 
-            #     music.name = track['name']
-            #     music.album_art = track['images'][0]['url']
-            #     music.released_by = track['label']
-            #     music.release_date = track['release_date']
-            #     music.user = request.user
-            #     music.curator = Curator.objects.get(user=request.user)
-            #     music.save()
-            #     music.artist.add(Artist.objects.get(spotify_uri=uri))
+                music = Music.objects.create(spotify_uri=form_uri, name=track['name'],album_art = track['images'][0]['url'], released_by = track['label'], release_date = track['release_date'], user = request.user, curator = Curator.objects.get(user=request.user))
+                music.artist.add(Artist.objects.get(spotify_uri=uri))
 
-            #     return redirect(f'/artist/new-music/{uri}/{form_uri}')
+                return redirect(f'/artist/finish/{form_uri}')
 
             else:
                 return response('<h1>Redirecting to music page</h1>')
@@ -308,11 +302,13 @@ def music_add(request, uri):
     return render(request, 'music_search.html', {'form': form, 'uri': uri})
 
 
-def music_create(request, uri, form_uri):
+def music_create(request, form_uri):
+    print('in music create route')
     if request.method == 'POST':
+        print('in post request')
         music = get_object_or_404(Music, spotify_uri=form_uri)
 
-        print('hello')
+        
         form = MusicCreateForm(request.POST, instance=music)
         if form.is_valid():
             music = form.save(commit=False)
@@ -331,12 +327,12 @@ def music_create(request, uri, form_uri):
         else:
             print('form not valid')
             print('Errors: ', form.errors, form.non_field_errors)
-            return redirect(f'/artist/new-music/{uri}/{form_uri}')
+            return redirect(f'/artist/finish/{form_uri}')
 
     
     else:
         print('world')
         form = MusicCreateForm()   
     
-    return render(request, 'music_search.html', {'form': form, 'uri': uri, 'form_uri': form_uri})
+    return render(request, 'music_create.html', {'form': form, 'form_uri': form_uri})
 

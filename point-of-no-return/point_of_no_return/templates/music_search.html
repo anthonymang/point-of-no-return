@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Add Music To The Database</h1>
-    <form action="/artist/new-music/{{uri}}" method="POST">
+    <form action="/artist/new-music/{{uri}}/" method="POST">
         {% csrf_token %}
         {{ form }}
         <input type="submit" value="Submit">

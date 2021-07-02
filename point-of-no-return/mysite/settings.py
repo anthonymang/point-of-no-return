@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'point-of-no-return.point_of_no_return',
+    'point_of_no_return',
     'taggit'
 ]
 

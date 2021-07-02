@@ -323,7 +323,7 @@ def music_create(request, form_uri):
             # artist.save()
             music.save()
             form.save_m2m()
-            return redirect('/add')
+            return redirect(f'/music/{form_uri}')
         else:
             print('form not valid')
             print('Errors: ', form.errors, form.non_field_errors)
@@ -336,3 +336,9 @@ def music_create(request, form_uri):
     
     return render(request, 'music_create.html', {'form': form, 'form_uri': form_uri})
 
+def music_show(request, uri):
+    music = get_object_or_404(Music, spotify_uri=uri)
+    # artist = Artist.objects.filter(music=music)
+    # print(artist)
+
+    return render(request, 'music_show.html', {'music': music})

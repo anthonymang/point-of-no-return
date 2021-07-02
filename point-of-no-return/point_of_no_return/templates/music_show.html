@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>
+        {% for artist in music.artist.all %}
+        {{ artist }}, 
+        {% endfor %}
+        {{ music.name }}, {{ music.release_type }}
+    </h1>
+    {{ music.spotify_embed | safe }}
+
+    <ul>
+        <li>{{ music.description }}</li>
+        <li>Release Date: {{ music.release_date }}</li>
+        {% if music.discogs_link %}
+        <li><a href="{{music.discogs_link}}">Find on Discogs</a></li>
+        {% endif %}
+        <li>Added By: {{ music.curator }}</li>
+        <li>
+            {% for tag in music.tags.all %}
+            {{ tag }}
+            {% endfor %}
+        </li>
+
+
+    </ul>
+
+</body>
+</html>

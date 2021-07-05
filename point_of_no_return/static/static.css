@@ -1,0 +1,16 @@
+.navbar {
+    background-color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.navbar-item{
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    text-shadow: 4px 1px 3px white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: ghostwhite;
+}

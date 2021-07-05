@@ -8,6 +8,7 @@ import base64
 import json
 import pprint
 from .models import *
+from .filters import *
 
 from decouple import config
 CLIENT_ID = config("CLIENT_ID")
@@ -349,4 +350,10 @@ def artist_show(request, uri):
     music = Music.objects.filter(artist=artist)
 
     return render(request, 'artist_show.html', {'artist': artist, 'music': music})
+
+def search_music(request):
+    music = Music.objects.all()
+    music_filter = MusicFilter(request.GET, queryset=music)
+    music = music_filter.qs
+    return render(request, 'search/music.html', {'filter': music_filter, 'music': music})
 

@@ -10,9 +10,10 @@
     <title>Point of No Return</title>
 </head>
 <body>
-    <nav class='navbar' role="navigation" aria-label="main navigation">
+    <nav class='navbar is-fixed-top' role="navigation" aria-label="main navigation">
         <div class ="navbar-brand">
         <h1 class ='navbar-item'>Point of No Return</h1>
+        <h1 class='navbar-item'>|</h1>
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
@@ -30,15 +31,29 @@
         {% if user.is_authenticated %}
         <a class='navbar-item' href="{% url 'logout' %}" class="navbar">Logout</a></span>
         {% else %}
-        <span><a class = 'navbar-item' href="{% url 'login' %}">Login</a></span>
+        <a class = 'navbar-item' href="{% url 'login' %}">Login</a>
+        <a class = 'navbar-item' href="{% url 'signup' %}">Signup</a>
         {% endif %}
     </div>
     </div>
     </nav>
     {% block content %}
     {% endblock %}
-    <footer>
-        Created by Anthony Manganiello, 2021
+    <footer class='footer' >
+        <div class='content has-text-centered'>
+        <p>
+        created by anthony manganiello, 2021
+        </p>
+        <p>
+        <a href='http://www.github.com/anthonymang/point-of-no-return'>
+        github</a>
+        <span>|</span>
+        <a href="https://www.discogs.com/user/anthonymang/collection">discogs</a>
+        <span>|</span>
+        <a href="#">portfolio</a>
+        </p>
+        
+    </div>
       </footer>
 </body>
 </html>

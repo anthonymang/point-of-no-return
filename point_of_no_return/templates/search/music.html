@@ -1,19 +1,30 @@
 {% extends 'base.html' %}
+{% load crispy_forms_tags %}
 {% load static %}
 {% block content %}
 
-    <form method = 'GET'>
-    {{ filter.form }}
-    <input type="submit" value="Search">
+<form method = 'GET' class='search-form is-mobile'>
+    {{ filter.form | crispy}}
+    <input type="submit" class = 'button is-white' value="Search">
 </form>
-    <div class = "card"></div>
+<div class='tile is-ancestor is-mobile mx-auto'>
+    <div class ='columns is-multiline'>
     {% for music in music %}
-    <a href="/music/{{music.spotify_uri}}"><img src="{{ music.album_art }}" alt="{{music.name}} album art">
+    <div class='column is-4'>
+    <div class = "tile is-parent">
+    <div class='tile is-child box'>
+    <a class = 'card-link' href="/music/{{music.spotify_uri}}"><img src="{{ music.album_art }}" alt="{{music.name}} album art">
     {% for artist in music.artist.all %} 
     {{artist}}, 
     {% endfor %} 
     {{ music.name }}
     </a>
+    </div>
+</div>
+</div>
+
 
     {% endfor %}
+</div>
+</div>
 {% endblock %}

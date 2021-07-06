@@ -2,29 +2,37 @@
 {% load static %}
 {% block content %}
 
-    
-    <h1>
+    <div class = "columns is-centered">
+        <div class='showcolumn is-centered is-vcentered column is-6'>
+
+    <div class = 'embed'>{{ music.spotify_embed | safe }}</div>
+</div>
+
+<div class = "showcolumn column showcontent is-6">
+    <h1 class = 'title'>
         {% for artist in music.artist.all %}
         {{ artist }}, 
         {% endfor %}
         {{ music.name }}, {{ music.release_type }}
     </h1>
-    {{ music.spotify_embed | safe }}
-
     <ul>
         <li>{{ music.description }}</li>
         <li>Release Date: {{ music.release_date }}</li>
         {% if music.discogs_link %}
         <li><a href="{{music.discogs_link}}">Find on Discogs</a></li>
         {% endif %}
+        <li>Released By: {{ music.released_by }}</li>
         <li>Added By: {{ music.curator }}</li>
-        <li>
-            {% for tag in music.tags.all %}
-            {{ tag }}
-            {% endfor %}
-        </li>
+        
 
 
     </ul>
+</div>
+</div>
+<div class='music-tags'> 
+    {% for tag in music.tags.all %}
+    <span class='tag is-dark'>{{ tag }}</span>
+    {% endfor %}
+</div>
 
 {% endblock %}

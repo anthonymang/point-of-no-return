@@ -1,16 +1,91 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color:whitesmoke;
+    min-height: 92vh;
+    margin-top: 8vh;
+}
+
+h1 {
+    font-size: larger;
+
+}
+
 .navbar {
-    background-color: whitesmoke;
+    background-color: slategray;
     font-family: 'Courier New', Courier, monospace;
     
 }
 .navbar-item{
-    color: black;
+    color: whitesmoke;
     font-size: larger;
     font-weight: bold;
-    text-shadow: 4px 1px 3px white;
+}
+
+a{
+    color: inherit
 }
 
 a:hover {
-    text-decoration: none;
-    color: ghostwhite;
+    text-decoration: underline;
+}
+
+.is-child {
+    background-color: black;
+}
+
+
+.is-parent{
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+    /* margin: 0 10px; */
+}
+
+.card-link{
+    color: white;
+}
+
+.button {
+    font-family: inherit;
+    font-weight: inherit;
+    color: whitesmoke;
+    font-size: larger;
+    
+}
+
+.search-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+    color: black;
+    
+}
+
+.footer{
+    background-color: whitesmoke;
+    color: black;
+
+}
+
+.showcolumn {
+    margin-top: 5vh;
+
+}
+
+.showcontent{
+    justify-content: center;
+    align-items: center;
+    vertical-align: center;
+}
+.music-tags{
+    margin-left: 5%;
+}
+
+.embed {
+    margin-left: 10%;
 }

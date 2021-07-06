@@ -9,6 +9,8 @@ import json
 import pprint
 from .models import *
 from .filters import *
+from django.contrib.auth.decorators import login_required
+
 
 from decouple import config
 CLIENT_ID = config("CLIENT_ID")
@@ -41,27 +43,7 @@ def login_view(request):
         form = AuthenticationForm()
         return render(request, 'login.html', {'form': form})
 
-# def login_view(request):
-#     if request.method is not 'POST':
-#         form = AuthenticationForm()
-#         return render(request, 'login.html', {'form': form})
-  
-#     form = AuthenticationForm(request, request.POST)
-  
-#     if not form.is_valid():
-#         print('-----------------------The username and/or password was incorrect')
-#         return redirect('/index')
-    
-#     u = form.cleaned_data['username']
-#     p = form.cleaned_data['password']
-#     user = authenticate(username=u, password=p)
 
-#     if not user.is_active:
-#         print('The account has been disabled')
-#         return redirect('/index')
-    
-#     login(request, user)
-#     return redirect('/index')
 
 def logout_view(request):
     logout(request)
@@ -78,12 +60,12 @@ def signup(request):
         form = UserCreationForm()
         return render(request, 'signup.html', {'form': form})
 
+@login_required
 def add(request):
     if request.method == 'POST':
         form = ArtistSearchForm(request.POST)
         if form.is_valid():
             uri = form.cleaned_data['URI']
-            # search_type = form.cleaned_data['search_type']
 
             url = 'https://accounts.spotify.com/api/token'
             headers = {}
@@ -127,83 +109,12 @@ def add(request):
             print('----Error in artist create----')
             return redirect('/add')  
 
-
-
-            # if search_type == 'Album':
-            #     headers = {
-            #         "Authorization": "Bearer " + token,
-            #     }
-            #     album_url = f'https://api.spotify.com/v1/albums/{uri}?market=US'
-            #     res = requests.get(url=album_url, headers=headers)
-            #     album_json = json.dumps(res.json())
-            #     album = json.loads(album_json)
-            #     artist_uri = album['artists'][0]['id']
-            #     pp.pprint(album)
-                
-            #     artist, created = Artist.objects.get_or_create(spotify_uri=artist_uri)
-            #     if created == True:
-            #         # artist_url = f'https://api.spotify.com/v1/artists/{artist_uri}?market=US'
-            #         # artist_res = requests.get(url=artist_url, headers=headers)
-            #         # artist_json = json.dumps(artist_res.json())
-            #         # this_artist = json.loads(artist_json)
-            #         print(this_artist['name'])
-            #         artist.name = this_artist['name']
-            #         artist.spotify_link = this_artist['external_urls']['spotify']
-            #         artist.artist_img = this_artist['images'][0]['url']
-            #         artist.save()
-
-            #         return redirect(f'/artist/create/{artist_uri}')
-
-            #     else:
-            #         return redirect(f'/music/create/')    
-                                
-            #     # pp.pprint(album['artists'][0]['href'])
-
-            # # elif search_type == 'Artist':
-            # #     headers = {
-            # #         "Authorization": "Bearer " + token
-            # #     }
-            # #     artist_url = f'https://api.spotify.com/v1/artists/{uri}?market=US'
-            # #     res = requests.get(url=artist_url, headers=headers)
-            # #     print(json.dumps(res.json(), indent=2))
-
-
-            # elif search_type == 'Track':
-            #     headers = {
-            #         "Authorization": "Bearer " + token
-            #     }
-            #     track_url = f'https://api.spotify.com/v1/tracks/{uri}?market=US'
-            #     res = requests.get(url=track_url, headers=headers)
-            #     track_json = json.dumps(res.json())
-            #     track = json.loads(track_json)
-            #     artist_uri = track['artists'][0]['id']
-            #     pp.pprint(track)
-                
-            #     artist, created = Artist.objects.get_or_create(spotify_uri=artist_uri)
-            #     if created == True:
-            #         artist_url = f'https://api.spotify.com/v1/artists/{artist_uri}?market=US'
-            #         artist_res = requests.get(url=artist_url, headers=headers)
-            #         artist_json = json.dumps(artist_res.json())
-            #         this_artist = json.loads(artist_json)
-            #         print(this_artist['name'])
-            #         artist.name = this_artist['name']
-            #         artist.spotify_link = this_artist['external_urls']['spotify']
-            #         artist.artist_img = this_artist['images'][0]['url']
-            #         artist.save()
-
-            #         return redirect(f'/artist/create/{artist_uri}')
-
-                
-            #     print(artist, created)
-
-
-            
-            # return redirect('/add')
     else:
         form = ArtistSearchForm()
 
     return render(request, 'add.html', {'form': form})
 
+@login_required
 def artist_create(request, uri):
     artist = get_object_or_404(Artist, spotify_uri=uri)
     print(artist)
@@ -212,15 +123,7 @@ def artist_create(request, uri):
         form = ArtistCreateForm(request.POST, instance=artist)
         if form.is_valid():
             artist = form.save(commit=False)
-            # print('inside update')
-            # artist.location = form.cleaned_data['location']
-            # artist.bio = form.cleaned_data['bio']
-            # artist.bandcamp_link = form.cleaned_data['bandcamp_link']
-            # artist.instagram_link = form.cleaned_data['instagram_link']
-            # artist.discogs_link = form.cleaned_data['discogs_link']
-            # artist.spotify_embed = form.cleaned_data['spotify_embed']
-            # artist.tags = form.cleaned_data['tags']
-            # artist.save()
+
             artist.save()
             form.save_m2m()
             return redirect(f'/artist/new-music/{uri}')
@@ -235,6 +138,7 @@ def artist_create(request, uri):
     return render(request, 'artist_create.html', {'form': form, 'uri':uri})
 
 
+@login_required
 def music_add(request, uri):
     if request.method == 'POST':
         form = MusicSearchForm(request.POST)
@@ -274,14 +178,7 @@ def music_add(request, uri):
                 music = Music.objects.create(spotify_uri=form_uri, name=album['name'],album_art = album['images'][0]['url'], released_by = album['label'], release_date = album['release_date'], user = request.user, curator = Curator.objects.get(user=request.user))
                 music.artist.add(Artist.objects.get(spotify_uri=uri))
 
-                # music.name = album['name']
-                # music.album_art = album['images'][0]['url']
-                # music.released_by = album['label']
-                # music.release_date = album['release_date']
-                # music.user = request.user
-                # music.curator = Curator.objects.get(user=request.user)
-                # music.artist.add(Artist.objects.get(spotify_uri=uri))
-
+ 
                 return redirect(f'/artist/finish/{form_uri}')
 
             if search_type == 'Track':
@@ -302,7 +199,7 @@ def music_add(request, uri):
     
     return render(request, 'music_search.html', {'form': form, 'uri': uri})
 
-
+@login_required
 def music_create(request, form_uri):
     print('in music create route')
     if request.method == 'POST':
@@ -313,15 +210,7 @@ def music_create(request, form_uri):
         form = MusicCreateForm(request.POST, instance=music)
         if form.is_valid():
             music = form.save(commit=False)
-            # print('inside update')
-            # artist.location = form.cleaned_data['location']
-            # artist.bio = form.cleaned_data['bio']
-            # artist.bandcamp_link = form.cleaned_data['bandcamp_link']
-            # artist.instagram_link = form.cleaned_data['instagram_link']
-            # artist.discogs_link = form.cleaned_data['discogs_link']
-            # artist.spotify_embed = form.cleaned_data['spotify_embed']
-            # artist.tags = form.cleaned_data['tags']
-            # artist.save()
+
             music.save()
             form.save_m2m()
             return redirect(f'/music/{form_uri}')

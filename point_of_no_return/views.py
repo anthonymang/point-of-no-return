@@ -246,3 +246,8 @@ def search_music(request):
     music = music_filter.qs
     return render(request, 'search/music.html', {'filter': music_filter, 'music': music})
 
+def tag_show(request, slug):
+    music = Music.objects.filter(tags__name__in=[slug])
+    artists = Artist.objects.filter(tags__name__in=[slug])
+
+    return render(request, 'tag_show.html', {'slug': slug, 'music': music, 'artists': artists})

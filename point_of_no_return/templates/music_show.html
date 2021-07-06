@@ -11,7 +11,7 @@
 <div class = "showcolumn column showcontent is-6">
     <h1 class = 'title'>
         {% for artist in music.artist.all %}
-        {{ artist }}, 
+        <a href="/artist/{{artist.spotify_uri}}">{{ artist }}</a>, 
         {% endfor %}
         {{ music.name }}, {{ music.release_type }}
     </h1>
@@ -31,7 +31,7 @@
 </div>
 <div class='music-tags'> 
     {% for tag in music.tags.all %}
-    <span class='tag is-dark'>{{ tag }}</span>
+    <a href="/tags/{{tag}}"><span class='tag is-dark'>{{ tag }}</span></a>
     {% endfor %}
 </div>
 

@@ -1,14 +1,10 @@
 {% extends 'base.html' %}
-{% load crispy_forms_tags %}
 {% load static %}
 {% block content %}
 
-<form method = 'GET' class='search-form is-mobile'>
-    {{ filter.form | crispy}}
-    <input type="submit" class = 'button is-white' value="Search">
-</form>
-<div class='tile is-ancestor is-mobile mx-auto'>
+<h1 class= 'title'>tag: {{slug}}</h1>
 
+<div class='tile is-ancestor is-mobile mx-auto'>
     <div class ='columns is-multiline'>
     {% for music in music %}
     <div class='column is-4'>
@@ -28,4 +24,5 @@
     {% endfor %}
 </div>
 </div>
+
 {% endblock %}

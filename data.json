@@ -1,0 +1,3780 @@
+[
+{
+  "model": "point_of_no_return.artist",
+  "pk": 31,
+  "fields": {
+    "name": "Faye Webster",
+    "location": "Atlanta",
+    "bio": "Atlanta-based artist. Indie, r&b, and slide guitar all tied around intimate vocals",
+    "spotify_uri": "5szilpXHcwOqnyKLqGco5j",
+    "bandcamp_link": "https://fayewebster.bandcamp.com/",
+    "spotify_link": "https://open.spotify.com/artist/5szilpXHcwOqnyKLqGco5j",
+    "instagram_link": "https://www.instagram.com/fayewebster",
+    "discogs_link": "https://www.discogs.com/artist/5725084-Faye-Webster",
+    "artist_img": "https://i.scdn.co/image/ab6761610000e5eba2f5c7ada7dcb46bb7454372",
+    "spotify_embed": "<iframe src=\"https://open.spotify.com/embed/artist/5szilpXHcwOqnyKLqGco5j\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>"
+  }
+},
+{
+  "model": "point_of_no_return.artist",
+  "pk": 32,
+  "fields": {
+    "name": "Tammy Lakkis",
+    "location": "Detroit",
+    "bio": "Detroit-based house/techno. Releases on Portage Garage Sounds",
+    "spotify_uri": "5Oil3tSucQaTnbidaBeZaA",
+    "bandcamp_link": "https://tammylakkis.bandcamp.com/",
+    "spotify_link": "https://open.spotify.com/artist/5Oil3tSucQaTnbidaBeZaA",
+    "instagram_link": "https://www.instagram.com/tammylakkis/",
+    "discogs_link": "https://www.discogs.com/artist/8983681-Tammy-Lakkis",
+    "artist_img": "https://i.scdn.co/image/1e53df5ef6dcddcda2b70b3fed13540df9431fb9",
+    "spotify_embed": "<iframe src=\"https://open.spotify.com/embed/artist/5Oil3tSucQaTnbidaBeZaA\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>"
+  }
+},
+{
+  "model": "point_of_no_return.artist",
+  "pk": 33,
+  "fields": {
+    "name": "Branden Lowe",
+    "location": "San Francisco",
+    "bio": "bizarre PERSON - fka evaboy",
+    "spotify_uri": "2Jow4wQDsD39J1JFIB7ywV",
+    "bandcamp_link": "https://brandenlowe.bandcamp.com/",
+    "spotify_link": "https://open.spotify.com/artist/2Jow4wQDsD39J1JFIB7ywV",
+    "instagram_link": "https://www.instagram.com/brandenlowexo/",
+    "discogs_link": "https://www.discogs.com/artist/7322019-Evaboy",
+    "artist_img": "https://i.scdn.co/image/ab6761610000e5ebdca6381803ad60580a453703",
+    "spotify_embed": "<iframe src=\"https://open.spotify.com/embed/artist/2Jow4wQDsD39J1JFIB7ywV\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>"
+  }
+},
+{
+  "model": "point_of_no_return.artist",
+  "pk": 34,
+  "fields": {
+    "name": "Zelooperz",
+    "location": "Detroit",
+    "bio": "Detroit. Bruiser Brigade. Ferocious bars, crazy beat selection.",
+    "spotify_uri": "5j93hwFBNo29RJMsWvtzj8",
+    "bandcamp_link": "https://zelooperz.bandcamp.com/",
+    "spotify_link": "https://open.spotify.com/artist/5j93hwFBNo29RJMsWvtzj8",
+    "instagram_link": "https://www.instagram.com/zelooperz/?hl=en",
+    "discogs_link": "https://www.discogs.com/artist/3496966-Zelooperz",
+    "artist_img": "https://i.scdn.co/image/cdeb1424e718f9d47a5f99c2ce9b9087878bc9db",
+    "spotify_embed": "<iframe src=\"https://open.spotify.com/embed/artist/5j93hwFBNo29RJMsWvtzj8\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>"
+  }
+},
+{
+  "model": "point_of_no_return.artist",
+  "pk": 35,
+  "fields": {
+    "name": "black midi",
+    "location": "London",
+    "bio": "High energy, mathy, noise-rock.",
+    "spotify_uri": "7Hvq85OU8T7Hsd63zNBwaL",
+    "bandcamp_link": "https://bmblackmidi.bandcamp.com/",
+    "spotify_link": "https://open.spotify.com/artist/7Hvq85OU8T7Hsd63zNBwaL",
+    "instagram_link": "https://www.instagram.com/bmblackmidi/?hl=en",
+    "discogs_link": "https://www.discogs.com/artist/6447017-Black-Midi",
+    "artist_img": "https://i.scdn.co/image/2c70cb0cbfccab295d47294e15dc121016a61341",
+    "spotify_embed": "<iframe src=\"https://open.spotify.com/embed/artist/7Hvq85OU8T7Hsd63zNBwaL\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>"
+  }
+},
+{
+  "model": "point_of_no_return.artist",
+  "pk": 36,
+  "fields": {
+    "name": "Reginald Omas Mamode IV",
+    "location": "London",
+    "bio": "Funky beats, soulful vocals, and introspection keep Omas Mamode IV's releases fresh and entertaining",
+    "spotify_uri": "7fwMK3Ri8BjvsBajiUt8dS",
+    "bandcamp_link": "https://reginaldomasmamodeiv.bandcamp.com/",
+    "spotify_link": "https://open.spotify.com/artist/7fwMK3Ri8BjvsBajiUt8dS",
+    "instagram_link": "https://www.instagram.com/reginaldomasmamodeiv/?hl=en",
+    "discogs_link": "https://www.discogs.com/artist/3845793-Reginald-Omas-Mamode-IV",
+    "artist_img": "https://i.scdn.co/image/ac9e051fc96ba5df05bbd3f449ef52ca9e192656",
+    "spotify_embed": "<iframe src=\"https://open.spotify.com/embed/artist/7fwMK3Ri8BjvsBajiUt8dS\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>"
+  }
+},
+{
+  "model": "point_of_no_return.artist",
+  "pk": 37,
+  "fields": {
+    "name": "Squid",
+    "location": "Brighton",
+    "bio": "5-piece band from Brighton, UK. Punk with a playful side.",
+    "spotify_uri": "685XjGzGztyivfR3fAjoxo",
+    "bandcamp_link": "https://squiduk.bandcamp.com/",
+    "spotify_link": "https://open.spotify.com/artist/685XjGzGztyivfR3fAjoxo",
+    "instagram_link": "https://www.instagram.com/squidbanduk/?hl=en",
+    "discogs_link": "https://www.discogs.com/artist/6133636-Squid-29",
+    "artist_img": "https://i.scdn.co/image/ad4e3a1f1d4a0d0fc293b1dbe28afa65aedf1a01",
+    "spotify_embed": "<iframe src=\"https://open.spotify.com/embed/artist/685XjGzGztyivfR3fAjoxo\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>"
+  }
+},
+{
+  "model": "point_of_no_return.artist",
+  "pk": 39,
+  "fields": {
+    "name": "Big Ever",
+    "location": "Berlin",
+    "bio": "FKA Cop Envy, grungy techno production with a heavy low-end and a UK flare",
+    "spotify_uri": "6S6PrVKF41V5qJxz4fZB56",
+    "bandcamp_link": "https://bigever.bandcamp.com/",
+    "spotify_link": "https://open.spotify.com/artist/6S6PrVKF41V5qJxz4fZB56",
+    "instagram_link": "https://www.instagram.com/bigever_/?hl=en",
+    "discogs_link": "https://www.discogs.com/artist/8704954-Big-Ever",
+    "artist_img": "https://i.scdn.co/image/ab6761610000e5ebd78523824f527144d1828161",
+    "spotify_embed": "<iframe src=\"https://open.spotify.com/embed/artist/6S6PrVKF41V5qJxz4fZB56\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>"
+  }
+},
+{
+  "model": "point_of_no_return.artist",
+  "pk": 40,
+  "fields": {
+    "name": "andy polk",
+    "location": "Brooklyn",
+    "bio": "Alt, pop, electronic, and hip-hop artist. Knows how to thrash but also how to keep it civil.",
+    "spotify_uri": "0pjzVvlSShyf6ZiWa7ICzw",
+    "bandcamp_link": "",
+    "spotify_link": "https://open.spotify.com/artist/0pjzVvlSShyf6ZiWa7ICzw",
+    "instagram_link": "https://www.instagram.com/andy_polk/",
+    "discogs_link": "",
+    "artist_img": "https://i.scdn.co/image/e2868691ff9687e6eeee117c8b5a11e3eac3e702",
+    "spotify_embed": "<iframe src=\"https://open.spotify.com/embed/artist/0pjzVvlSShyf6ZiWa7ICzw\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>"
+  }
+},
+{
+  "model": "point_of_no_return.artist",
+  "pk": 42,
+  "fields": {
+    "name": "Galcher Lustwerk",
+    "location": "Brooklyn",
+    "bio": "Brooklyn-based Galcher Lustwerk became one of the most hotly tipped names in the underground dance music scene during the mid-2010s. The Cleveland-born producer's tracks combine deep house beats with his own subtle vocals often reminiscent of a more laid-back variation on late-'80s hip-house, creating a detached yet energetic take on the Midwest house sound. He is a member of the White Material collective, which was founded by cohorts DJ Richard and Young Male in 2012. Lustwerk's first vinyl release, Tape 22, appeared on the label in 2013, but it was his 100% Galcher mix of unreleased material for podcast series Blowing Up the Workshop that put him on the map among house fans. EPs Nu Day and Remixes followed on Tsuba Records in 2014. He then founded Lustwerk Music in 2015, kicking off the label with his EPs Parlay and I Neva Seen. He also released a few digital EPs of \"driving music\" under the name Road Hog. In 2016, Lustwerk released Scenes (2012-2015), a double LP by Studio OST, his",
+    "spotify_uri": "1c7bxvBwJrMuZKwx4EDPHf",
+    "bandcamp_link": "https://galcherlustwerk.bandcamp.com/",
+    "spotify_link": "https://open.spotify.com/artist/1c7bxvBwJrMuZKwx4EDPHf",
+    "instagram_link": "https://www.instagram.com/lustwerk.music/",
+    "discogs_link": "https://www.discogs.com/artist/3288914-Galcher-Lustwerk",
+    "artist_img": "https://i.scdn.co/image/ab6761610000e5eb88b6be9afc556fc7314e85dd",
+    "spotify_embed": "<iframe src=\"https://open.spotify.com/embed/artist/1c7bxvBwJrMuZKwx4EDPHf\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>"
+  }
+},
+{
+  "model": "point_of_no_return.artist",
+  "pk": 43,
+  "fields": {
+    "name": "TMFD",
+    "location": "Los Angeles",
+    "bio": "South African house DJ based in LA & Brooklyn. Jiggy vibes, groove, and soul all in one package",
+    "spotify_uri": "2YaerRkdhmX4egU6oqYMCr",
+    "bandcamp_link": "",
+    "spotify_link": "https://open.spotify.com/artist/2YaerRkdhmX4egU6oqYMCr",
+    "instagram_link": "https://www.instagram.com/themba_daniels/",
+    "discogs_link": "",
+    "artist_img": "https://i.scdn.co/image/ab6761610000e5eb1ca353efd8a7626baa0fb8b2",
+    "spotify_embed": "<iframe src=\"https://open.spotify.com/embed/artist/2YaerRkdhmX4egU6oqYMCr\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>"
+  }
+},
+{
+  "model": "point_of_no_return.curator",
+  "pk": 1,
+  "fields": {
+    "name": "point of no return",
+    "user": 1
+  }
+},
+{
+  "model": "point_of_no_return.music",
+  "pk": 27,
+  "fields": {
+    "name": "I Know I'm Funny haha",
+    "release_date": "2021-06-25",
+    "released_by": "Secretly Canadian",
+    "description": "2021 release from Faye Webster. Follow up to breakout album Atlanta Millionaires Club.",
+    "spotify_embed": "<iframe src=\"https://open.spotify.com/embed/album/454yeYs9PxTEwGmZf6OBpa\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+    "bandcamp_embed": "<iframe style=\"border: 0; width: 350px; height: 470px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=3999595157/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/\" seamless><a href=\"https://fayewebster.bandcamp.com/album/i-know-im-funny-haha\">I Know I&#39;m Funny haha by Faye Webster</a></iframe>",
+    "discogs_link": "https://www.discogs.com/Faye-Webster-I-Know-Im-Funny-Haha/master/2183338",
+    "genre": "",
+    "spotify_uri": "454yeYs9PxTEwGmZf6OBpa",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b273c4b782fd6e9443cad5bee672",
+    "release_type": "LP",
+    "user": 1,
+    "curator": 1,
+    "comments": null,
+    "artist": [
+      31
+    ]
+  }
+},
+{
+  "model": "point_of_no_return.music",
+  "pk": 28,
+  "fields": {
+    "name": "Atlanta Millionaires Club",
+    "release_date": "2019-05-24",
+    "released_by": "Secretly Canadian",
+    "description": "Faye Webster's breakout album. Heartbreak and intimacy that draws a single tear from even the strongest of humans.",
+    "spotify_embed": "<iframe src=\"https://open.spotify.com/embed/album/4vt0V1SmkaK1Y440P5Nsb4\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+    "bandcamp_embed": "<iframe style=\"border: 0; width: 350px; height: 470px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2891795100/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/\" seamless><a href=\"https://fayewebster.bandcamp.com/album/atlanta-millionaires-club\">Atlanta Millionaires Club by Faye Webster</a></iframe>",
+    "discogs_link": "https://www.discogs.com/Faye-Webster-Atlanta-Millionaires-Club/master/1559137",
+    "genre": "",
+    "spotify_uri": "4vt0V1SmkaK1Y440P5Nsb4",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b2732e132a81fd103d3ee20033cf",
+    "release_type": "LP",
+    "user": 1,
+    "curator": 1,
+    "comments": null,
+    "artist": [
+      31
+    ]
+  }
+},
+{
+  "model": "point_of_no_return.music",
+  "pk": 29,
+  "fields": {
+    "name": "Notice EP",
+    "release_date": "2021-03-26",
+    "released_by": "Portage Garage Sounds",
+    "description": "Debut EP from Tammy Lakkis. Ranges from silky grooves and vocal house to spacey techno.",
+    "spotify_embed": "<iframe src=\"https://open.spotify.com/embed/album/30O1dv5HynTvmGufxUBhW1\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+    "bandcamp_embed": "<iframe style=\"border: 0; width: 350px; height: 470px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=3275360356/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/\" seamless><a href=\"https://tammylakkis.bandcamp.com/album/notice\">Notice by Tammy Lakkis</a></iframe>",
+    "discogs_link": "https://www.discogs.com/Tammy-Lakkis-Notice/release/17904202",
+    "genre": "",
+    "spotify_uri": "30O1dv5HynTvmGufxUBhW1",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b273cfde80fe9735c87734b1e420",
+    "release_type": "EP",
+    "user": 1,
+    "curator": 1,
+    "comments": null,
+    "artist": [
+      32
+    ]
+  }
+},
+{
+  "model": "point_of_no_return.music",
+  "pk": 30,
+  "fields": {
+    "name": "music that i can put on streaming services without getting sued",
+    "release_date": "2021-04-19",
+    "released_by": "2979835 Records DK",
+    "description": "Beats, breaks, heartwarming and soul-wrenching. g",
+    "spotify_embed": "<iframe src=\"https://open.spotify.com/embed/album/6zSQZukSj0PYUiTHhHIsCp\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+    "bandcamp_embed": "",
+    "discogs_link": "",
+    "genre": "",
+    "spotify_uri": "6zSQZukSj0PYUiTHhHIsCp",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b273c244ee8106d7c5a2fff7933f",
+    "release_type": "LP",
+    "user": 1,
+    "curator": 1,
+    "comments": null,
+    "artist": [
+      33
+    ]
+  }
+},
+{
+  "model": "point_of_no_return.music",
+  "pk": 31,
+  "fields": {
+    "name": "Moszel Offline",
+    "release_date": "2020-07-31",
+    "released_by": "Bruiser Brigade",
+    "description": "2020 Zelooperz tape. Hard beats, hazy vocals.",
+    "spotify_embed": "<iframe src=\"https://open.spotify.com/embed/album/6WpDycPwGJOIt9r8PrfqzL\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+    "bandcamp_embed": "",
+    "discogs_link": "https://www.discogs.com/Zelooperz-Moszel-Offline/release/19055071",
+    "genre": "",
+    "spotify_uri": "6WpDycPwGJOIt9r8PrfqzL",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b273062e6e45cc560541200ef28c",
+    "release_type": "LP",
+    "user": 1,
+    "curator": 1,
+    "comments": null,
+    "artist": [
+      34
+    ]
+  }
+},
+{
+  "model": "point_of_no_return.music",
+  "pk": 32,
+  "fields": {
+    "name": "Cavalcade",
+    "release_date": "2021-05-26",
+    "released_by": "Rough Trade",
+    "description": "Second album from Black Midi. Features more varied instrumentation than Schlagenheim with the inclusion of horns throughout the album.",
+    "spotify_embed": "<iframe src=\"https://open.spotify.com/embed/album/7AsC27VDa3yOksZrfBSD6D\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+    "bandcamp_embed": "<iframe style=\"border: 0; width: 350px; height: 470px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2744464804/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/\" seamless><a href=\"https://bmblackmidi.bandcamp.com/album/cavalcade\">Cavalcade by black midi</a></iframe>",
+    "discogs_link": "https://www.discogs.com/Black-Midi-Cavalcade/master/2140543",
+    "genre": "",
+    "spotify_uri": "7AsC27VDa3yOksZrfBSD6D",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b273313e685574adc6ead733b53c",
+    "release_type": "LP",
+    "user": 1,
+    "curator": 1,
+    "comments": null,
+    "artist": [
+      35
+    ]
+  }
+},
+{
+  "model": "point_of_no_return.music",
+  "pk": 33,
+  "fields": {
+    "name": "Where We Going?",
+    "release_date": "2019-05-10",
+    "released_by": "Five Easy Pieces",
+    "description": "\"Where We Going?\" was partly recorded on a journey to the Mascarene Islands in search of family roots. 'he album is reflective of the search for this lineage, which branches from ancient Mauritian Maroons - whose rich heritage, music and culture includes an unrecognised, undocumented resistance to colonialism - though Swahili and Malagasy to sugarcane plantation Creole slave descendants.  Influenced by golden era hip-hop, jazz, soul, Afro, funk, Sega and Maloya, and music from Africa, the Caribbean, South London and US; it is in part an attempt to evoke feelings of universal love and compassion. Mamode recorded the album using various drums and drum machines, percussion instruments, Fender Rhodes, and Roland and Korg synthesizers.",
+    "spotify_embed": "<iframe src=\"https://open.spotify.com/embed/album/6bXYNNWcnBndrdeWGor5JJ\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+    "bandcamp_embed": "<iframe style=\"border: 0; width: 350px; height: 470px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=497953051/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/\" seamless><a href=\"https://reginaldomasmamodeiv.bandcamp.com/album/where-we-going\">Where We Going? by Reginald Omas Mamode IV</a></iframe>",
+    "discogs_link": "https://www.discogs.com/Reginald-Omas-Mamode-IV-Where-We-Going/release/13631966",
+    "genre": "",
+    "spotify_uri": "6bXYNNWcnBndrdeWGor5JJ",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b2730004c2adf73dcc703a93fdeb",
+    "release_type": "LP",
+    "user": 1,
+    "curator": 1,
+    "comments": null,
+    "artist": [
+      36
+    ]
+  }
+},
+{
+  "model": "point_of_no_return.music",
+  "pk": 34,
+  "fields": {
+    "name": "Bright Green Field",
+    "release_date": "2021-05-07",
+    "released_by": "Warp Records",
+    "description": "Debut album from Squid. Environmentally-focused dance-punk that straddles the line of playful and deadly serious.",
+    "spotify_embed": "<iframe src=\"https://open.spotify.com/embed/album/4z44Wir05QzQYSCs0KwsKX\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+    "bandcamp_embed": "<iframe style=\"border: 0; width: 350px; height: 470px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=1351277344/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/\" seamless><a href=\"https://squiduk.bandcamp.com/album/bright-green-field\">Bright Green Field by Squid</a></iframe>",
+    "discogs_link": "https://www.discogs.com/Squid-Bright-Green-Field/master/2111830",
+    "genre": "",
+    "spotify_uri": "4z44Wir05QzQYSCs0KwsKX",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b27355fa8fe66444b56a47f69327",
+    "release_type": "LP",
+    "user": 1,
+    "curator": 1,
+    "comments": null,
+    "artist": [
+      37
+    ]
+  }
+},
+{
+  "model": "point_of_no_return.music",
+  "pk": 35,
+  "fields": {
+    "name": "Town Centre",
+    "release_date": "2019-09-06",
+    "released_by": "Speedy Wunderground / [PIAS]",
+    "description": "Four-song EP, textured compositions with a post-punk flavor.",
+    "spotify_embed": "<iframe src=\"https://open.spotify.com/embed/album/1HHRsE5WWZZYFXE6Ewf5XB\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+    "bandcamp_embed": "",
+    "discogs_link": "https://www.discogs.com/Squid-Town-Centre/master/1611946",
+    "genre": "",
+    "spotify_uri": "1HHRsE5WWZZYFXE6Ewf5XB",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b27323229803badfb078f9a584ef",
+    "release_type": "EP",
+    "user": 1,
+    "curator": 1,
+    "comments": null,
+    "artist": [
+      37
+    ]
+  }
+},
+{
+  "model": "point_of_no_return.music",
+  "pk": 36,
+  "fields": {
+    "name": "Otto",
+    "release_date": "2021-05-07",
+    "released_by": "Incienso",
+    "description": "Debut EP as Big Ever. Intricate synth-work and percussion accompany waves of energy coming from the low end.",
+    "spotify_embed": "<iframe src=\"https://open.spotify.com/embed/album/3NzglmqpXKA5iuZuTaRdhP\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+    "bandcamp_embed": "<iframe style=\"border: 0; width: 350px; height: 470px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=873727719/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/\" seamless><a href=\"https://bigever.bandcamp.com/album/otto-ep\">Otto EP by Big Ever</a></iframe>",
+    "discogs_link": "https://www.discogs.com/Big-Ever-Otto-/release/18429469",
+    "genre": "",
+    "spotify_uri": "3NzglmqpXKA5iuZuTaRdhP",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b273fe0fadab4a308aa254f8b6dc",
+    "release_type": "EP",
+    "user": 1,
+    "curator": 1,
+    "comments": null,
+    "artist": [
+      39
+    ]
+  }
+},
+{
+  "model": "point_of_no_return.music",
+  "pk": 37,
+  "fields": {
+    "name": "Schlagenheim",
+    "release_date": "2019-06-21",
+    "released_by": "Rough Trade",
+    "description": "Debut from the British rockers. Mathy, noise-y, exploratory - an iconic career starter.",
+    "spotify_embed": "<iframe src=\"https://open.spotify.com/embed/album/5M9SijJoRgczSknq2LaHJN\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+    "bandcamp_embed": "<iframe style=\"border: 0; width: 350px; height: 470px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=1994165613/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/\" seamless><a href=\"https://bmblackmidi.bandcamp.com/album/schlagenheim\">Schlagenheim by black midi</a></iframe>",
+    "discogs_link": "https://www.discogs.com/Black-Midi-Schlagenheim/master/1567054",
+    "genre": "",
+    "spotify_uri": "5M9SijJoRgczSknq2LaHJN",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b273962b969b8e899da27edb8606",
+    "release_type": "LP",
+    "user": 1,
+    "curator": 1,
+    "comments": null,
+    "artist": [
+      35
+    ]
+  }
+},
+{
+  "model": "point_of_no_return.music",
+  "pk": 38,
+  "fields": {
+    "name": "Dyn-O-Mite",
+    "release_date": "2019-09-16",
+    "released_by": "Bruiser Brigade",
+    "description": "Zelooperz brings Earl Sweatshirt onto a sample-heavy beat selection. Old-school vibes with a decidedly Zelooperz sound.",
+    "spotify_embed": "<iframe src=\"https://open.spotify.com/embed/album/4NIsKATEssBSrAl40JlZs5\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+    "bandcamp_embed": "<iframe style=\"border: 0; width: 350px; height: 470px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2207813494/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/\" seamless><a href=\"https://zelooperz.bandcamp.com/album/dyn-o-mite\">Dyn-o-mite by ZelooperZ</a></iframe>",
+    "discogs_link": "https://www.discogs.com/ZelooperZ-Dyn-O-Mite/master/1747418",
+    "genre": "",
+    "spotify_uri": "4NIsKATEssBSrAl40JlZs5",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b273b930554047fb2ef8b9aa7a43",
+    "release_type": "LP",
+    "user": 1,
+    "curator": 1,
+    "comments": null,
+    "artist": [
+      34
+    ]
+  }
+},
+{
+  "model": "point_of_no_return.music",
+  "pk": 39,
+  "fields": {
+    "name": "phantom",
+    "release_date": "2020-07-31",
+    "released_by": "andy polk",
+    "description": "covid era recording from one of Brooklyn's finest",
+    "spotify_embed": "<iframe src=\"https://open.spotify.com/embed/album/5gADzvWxtwayfFAw2xrVsq\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+    "bandcamp_embed": "",
+    "discogs_link": "",
+    "genre": "",
+    "spotify_uri": "5gADzvWxtwayfFAw2xrVsq",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b273243f9a41e7611ad164aaac18",
+    "release_type": "EP",
+    "user": 1,
+    "curator": 1,
+    "comments": null,
+    "artist": [
+      40
+    ]
+  }
+},
+{
+  "model": "point_of_no_return.music",
+  "pk": 41,
+  "fields": {
+    "name": "Information",
+    "release_date": "2019-11-22",
+    "released_by": "Ghostly International",
+    "description": "Essential work from the underground stalwart.",
+    "spotify_embed": "<iframe src=\"https://open.spotify.com/embed/album/4sXAvPGuK1PPUm5S8Obqs8\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+    "bandcamp_embed": "https://galcherlustwerk.bandcamp.com/album/information",
+    "discogs_link": "https://www.discogs.com/Galcher-Lustwerk-Information/master/1640551",
+    "genre": "",
+    "spotify_uri": "4sXAvPGuK1PPUm5S8Obqs8",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b2731ce983a3562192ff90796d0a",
+    "release_type": "LP",
+    "user": 1,
+    "curator": 1,
+    "comments": null,
+    "artist": [
+      42
+    ]
+  }
+},
+{
+  "model": "point_of_no_return.music",
+  "pk": 42,
+  "fields": {
+    "name": "Space Designer",
+    "release_date": "2020-07-01",
+    "released_by": "1518363 Records DK2",
+    "description": "Debut EP from the man himself.",
+    "spotify_embed": "<iframe src=\"https://open.spotify.com/embed/album/2SwxoAnSitcHlHsNnOKWVI\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>",
+    "bandcamp_embed": "",
+    "discogs_link": "",
+    "genre": "",
+    "spotify_uri": "2SwxoAnSitcHlHsNnOKWVI",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b273fc625128b5306ecc84b0d44c",
+    "release_type": "EP",
+    "user": 1,
+    "curator": 1,
+    "comments": null,
+    "artist": [
+      43
+    ]
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2021-06-30T16:19:06.340Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "point of no return",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2021-06-30T16:39:15.059Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Faye Webster",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2021-06-30T16:43:35.087Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "I Know I'm Funny haha",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2021-06-30T16:43:43.016Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "I Know I'm Funny haha",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2021-06-30T16:51:40.770Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Tammy Lakkis",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2021-06-30T16:54:02.581Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Notice",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2021-07-01T14:23:42.250Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Tammy Lakkis",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2021-07-01T14:23:42.264Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Faye Webster",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2021-07-01T14:23:57.010Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Notice, 2021",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2021-07-01T14:23:57.014Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "I Know I'm Funny haha, 2021",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2021-07-01T14:51:54.749Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2021-07-01T15:07:01.553Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2021-07-01T15:07:01.571Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2021-07-01T15:44:55.478Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Jimi Hendrix",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2021-07-01T15:44:55.524Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Faye Webster",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2021-07-01T16:00:56.189Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Lauren Flax",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2021-07-01T16:00:56.195Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Yeah Yeah Yeahs",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2021-07-01T16:23:21.921Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "Busta Rhymes",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2021-07-01T16:23:26.589Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "Faye Webster",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2021-07-01T16:23:26.594Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "Danger Incorporated",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2021-07-01T16:27:55.045Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "14",
+    "object_repr": "Danger Incorporated",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2021-07-01T16:27:55.051Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "13",
+    "object_repr": "Faye Webster",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2021-07-01T16:31:29.792Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "15",
+    "object_repr": "Faye Webster",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2021-07-01T16:34:29.101Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "16",
+    "object_repr": "Faye Webster",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2021-07-01T16:35:44.963Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "17",
+    "object_repr": "Faye Webster",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2021-07-01T16:46:12.480Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "19",
+    "object_repr": "Danger Incorporated",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2021-07-01T18:45:31.205Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "21",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2021-07-01T18:45:31.213Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "20",
+    "object_repr": "Danger Incorporated",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2021-07-01T18:45:31.216Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "18",
+    "object_repr": "Faye Webster",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2021-07-01T18:48:31.220Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "22",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2021-07-01T19:46:08.723Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "23",
+    "object_repr": "Tommy Guerrero",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2021-07-01T19:48:12.317Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "24",
+    "object_repr": "Tommy Guerrero",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2021-07-01T19:52:50.952Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "26",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2021-07-01T19:52:50.957Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "25",
+    "object_repr": "Tommy Guerrero",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2021-07-02T00:25:16.946Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "15",
+    "object_repr": "Perpetual, 2015-10-30",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2021-07-02T00:25:16.950Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "14",
+    "object_repr": "Sunshine Radio, 2021-01-15",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2021-07-02T00:25:16.953Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "13",
+    "object_repr": "Sunshine Radio, 2021-01-15",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2021-07-02T00:25:16.957Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "12",
+    "object_repr": "Road to Knowhere, 2018-10-26",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2021-07-02T00:32:59.309Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "17",
+    "object_repr": "Road to Knowhere, 2018-10-26",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2021-07-02T00:32:59.313Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "16",
+    "object_repr": "Perpetual, 2015-10-30",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2021-07-02T00:34:49.284Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "18",
+    "object_repr": "Road to Knowhere, 2018-10-26",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2021-07-02T00:39:59.362Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "19",
+    "object_repr": "Road to Knowhere, 2018-10-26",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2021-07-02T01:55:45.132Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "26",
+    "object_repr": "Smokers Delight, 1995-09-25",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2021-07-02T01:55:45.136Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "25",
+    "object_repr": "Carboot Soul, 1999-04-12",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2021-07-02T01:55:45.139Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "24",
+    "object_repr": "Carboot Soul, 1999-04-12",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2021-07-02T01:55:45.142Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "23",
+    "object_repr": "In A Space Outta Sound, 2006-02-20",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2021-07-02T01:55:45.146Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "22",
+    "object_repr": "Sheepskin Sessions, 2021-05-21",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2021-07-02T01:55:45.149Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "21",
+    "object_repr": "Road to Knowhere, 2018-10-26",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2021-07-02T01:55:45.151Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "20",
+    "object_repr": "Road to Knowhere, 2018-10-26",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2021-07-02T01:55:53.776Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "29",
+    "object_repr": "Nightmares On Wax",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2021-07-02T01:55:53.782Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "28",
+    "object_repr": "Quantic",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2021-07-02T01:55:53.785Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "27",
+    "object_repr": "Tommy Guerrero",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2021-07-02T01:56:03.519Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "8",
+    "object_repr": "analog",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2021-07-02T01:56:03.523Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "atlanta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2021-07-02T01:56:03.525Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "12",
+    "object_repr": "danger",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2021-07-02T01:56:03.528Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "5",
+    "object_repr": "detroit",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2021-07-02T01:56:03.531Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "6",
+    "object_repr": "detroit techno",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2021-07-02T01:56:03.533Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "3",
+    "object_repr": "folk",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2021-07-02T01:56:03.536Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "11",
+    "object_repr": "fun",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2021-07-02T01:56:03.539Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "9",
+    "object_repr": "hardware",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2021-07-02T01:56:03.541Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "7",
+    "object_repr": "house",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2021-07-02T01:56:03.544Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "indie",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2021-07-02T01:56:03.546Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "13",
+    "object_repr": "music",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2021-07-02T01:56:03.548Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "4",
+    "object_repr": "r&b",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2021-07-02T01:56:03.550Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "10",
+    "object_repr": "techno",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2021-07-02T14:11:30.986Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "38",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2021-07-02T14:11:30.993Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "30",
+    "object_repr": "",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2021-07-02T14:35:51.014Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "35",
+    "object_repr": "Town Centre, 2019-09-06",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2021-07-06T18:43:37.907Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "41",
+    "object_repr": "Galcher Lustwerk",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2021-07-06T18:43:47.746Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "40",
+    "object_repr": "Information, 2019-11-22",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2021-07-06T20:46:55.923Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "29",
+    "object_repr": "Notice EP, 2021-03-26",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Release type\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add artist",
+    "content_type": 7,
+    "codename": "add_artist"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change artist",
+    "content_type": 7,
+    "codename": "change_artist"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete artist",
+    "content_type": 7,
+    "codename": "delete_artist"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view artist",
+    "content_type": 7,
+    "codename": "view_artist"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add submission",
+    "content_type": 8,
+    "codename": "add_submission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change submission",
+    "content_type": 8,
+    "codename": "change_submission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete submission",
+    "content_type": 8,
+    "codename": "delete_submission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view submission",
+    "content_type": 8,
+    "codename": "view_submission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add music",
+    "content_type": 9,
+    "codename": "add_music"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change music",
+    "content_type": 9,
+    "codename": "change_music"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete music",
+    "content_type": 9,
+    "codename": "delete_music"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view music",
+    "content_type": 9,
+    "codename": "view_music"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 10,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 10,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 10,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 10,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add curator",
+    "content_type": 11,
+    "codename": "add_curator"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change curator",
+    "content_type": 11,
+    "codename": "change_curator"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete curator",
+    "content_type": 11,
+    "codename": "delete_curator"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view curator",
+    "content_type": 11,
+    "codename": "view_curator"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 12,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 12,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 12,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 12,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 13,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 13,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 13,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 13,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$dLvH2n6aCacOnSPl6czwhB$w4yBMv48E+5deG4kvRWguiLzZNFTMYXzYFEODF89OwU=",
+    "last_login": "2021-07-07T02:08:37.192Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "anthonymanganielloDA@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-06-29T16:32:13.983Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$JvWa4yD7zr8Rd8DNTztW3M$+WVqaZuSxDNIukzrpDHDg+YX0fDMnBhtJe+fSctRzNU=",
+    "last_login": "2021-06-30T01:34:19.231Z",
+    "is_superuser": false,
+    "username": "test_test",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-06-30T01:16:06.364Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "point_of_no_return",
+    "model": "artist"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "point_of_no_return",
+    "model": "submission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "point_of_no_return",
+    "model": "music"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "point_of_no_return",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "point_of_no_return",
+    "model": "curator"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "gthqkmf8jj2hhoe9g7q1oday1cshd56z",
+  "fields": {
+    "session_data": ".eJxVjEsOAiEQBe_C2hCYbmhw6X7OQJqPMmogmc_KeHedZBa6fVX1XiLwttawLWUOUxZnocXpd4ucHqXtIN-53bpMva3zFOWuyIMucuy5PC-H-3dQeanfmrRi7zkni6RBkVeGgQCjQhyADUFGoxLZIQEDOkd4ddk7a5N1SIN4fwCkETYA:1m0wzN:Eg7UR_ya8XZ0M6fv2AUgS3moT8rGD80YZWK9vzlbz3M",
+    "expire_date": "2021-07-21T02:08:37.201Z"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 14,
+  "fields": {
+    "name": "atlanta",
+    "slug": "atlanta"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 15,
+  "fields": {
+    "name": "indie",
+    "slug": "indie"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 16,
+  "fields": {
+    "name": "r&b",
+    "slug": "rb"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 17,
+  "fields": {
+    "name": "folk",
+    "slug": "folk"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 18,
+  "fields": {
+    "name": "detroit techno",
+    "slug": "detroit-techno"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 19,
+  "fields": {
+    "name": "techno",
+    "slug": "techno"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 20,
+  "fields": {
+    "name": "analog",
+    "slug": "analog"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 21,
+  "fields": {
+    "name": "detroit",
+    "slug": "detroit"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 22,
+  "fields": {
+    "name": "house",
+    "slug": "house"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 23,
+  "fields": {
+    "name": "hardware",
+    "slug": "hardware"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 24,
+  "fields": {
+    "name": "hi-bpm",
+    "slug": "hi-bpm"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 25,
+  "fields": {
+    "name": "beats",
+    "slug": "beats"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 26,
+  "fields": {
+    "name": "instrumentals",
+    "slug": "instrumentals"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 27,
+  "fields": {
+    "name": "breaks",
+    "slug": "breaks"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 28,
+  "fields": {
+    "name": "jungle",
+    "slug": "jungle"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 29,
+  "fields": {
+    "name": "club music",
+    "slug": "club-music"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 30,
+  "fields": {
+    "name": "rap",
+    "slug": "rap"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 31,
+  "fields": {
+    "name": "hip hop",
+    "slug": "hip-hop"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 32,
+  "fields": {
+    "name": "bruiser brigade",
+    "slug": "bruiser-brigade"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 33,
+  "fields": {
+    "name": "london",
+    "slug": "london"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 34,
+  "fields": {
+    "name": "rock",
+    "slug": "rock"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 35,
+  "fields": {
+    "name": "noise",
+    "slug": "noise"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 36,
+  "fields": {
+    "name": "math",
+    "slug": "math"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 37,
+  "fields": {
+    "name": "experimental",
+    "slug": "experimental"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 38,
+  "fields": {
+    "name": "neo-soul",
+    "slug": "neo-soul"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 39,
+  "fields": {
+    "name": "soul",
+    "slug": "soul"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 40,
+  "fields": {
+    "name": "funk",
+    "slug": "funk"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 41,
+  "fields": {
+    "name": "punk",
+    "slug": "punk"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 42,
+  "fields": {
+    "name": "brighton",
+    "slug": "brighton"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 43,
+  "fields": {
+    "name": "uk",
+    "slug": "uk"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 44,
+  "fields": {
+    "name": "political",
+    "slug": "political"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 45,
+  "fields": {
+    "name": "post-punk",
+    "slug": "post-punk"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 46,
+  "fields": {
+    "name": "dance punk",
+    "slug": "dance-punk"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 47,
+  "fields": {
+    "name": "bass",
+    "slug": "bass"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 48,
+  "fields": {
+    "name": "incienso",
+    "slug": "incienso"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 49,
+  "fields": {
+    "name": "berlin",
+    "slug": "berlin"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 50,
+  "fields": {
+    "name": "black midi",
+    "slug": "black-midi"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 51,
+  "fields": {
+    "name": "sample",
+    "slug": "sample"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 52,
+  "fields": {
+    "name": "speedy wunderground",
+    "slug": "speedy-wunderground"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 53,
+  "fields": {
+    "name": "glitch",
+    "slug": "glitch"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 54,
+  "fields": {
+    "name": "hyperpop",
+    "slug": "hyperpop"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 55,
+  "fields": {
+    "name": "electronic",
+    "slug": "electronic"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 56,
+  "fields": {
+    "name": "alternative",
+    "slug": "alternative"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 57,
+  "fields": {
+    "name": "pop",
+    "slug": "pop"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 58,
+  "fields": {
+    "name": "brooklyn",
+    "slug": "brooklyn"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 59,
+  "fields": {
+    "name": "deep house",
+    "slug": "deep-house"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 60,
+  "fields": {
+    "name": "groove",
+    "slug": "groove"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 61,
+  "fields": {
+    "name": "vocal",
+    "slug": "vocal"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 62,
+  "fields": {
+    "name": "dance",
+    "slug": "dance"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 63,
+  "fields": {
+    "name": "galcher lustwerk",
+    "slug": "galcher-lustwerk"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 64,
+  "fields": {
+    "name": "los angeles",
+    "slug": "los-angeles"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 65,
+  "fields": {
+    "name": "south africa",
+    "slug": "south-africa"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 66,
+  "fields": {
+    "name": "moody",
+    "slug": "moody"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 67,
+  "fields": {
+    "name": "tmfd",
+    "slug": "tmfd"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 61,
+  "fields": {
+    "tag": 16,
+    "content_type": 7,
+    "object_id": 31
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 62,
+  "fields": {
+    "tag": 17,
+    "content_type": 7,
+    "object_id": 31
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 63,
+  "fields": {
+    "tag": 14,
+    "content_type": 7,
+    "object_id": 31
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 64,
+  "fields": {
+    "tag": 15,
+    "content_type": 7,
+    "object_id": 31
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 65,
+  "fields": {
+    "tag": 16,
+    "content_type": 9,
+    "object_id": 27
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 66,
+  "fields": {
+    "tag": 17,
+    "content_type": 9,
+    "object_id": 27
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 67,
+  "fields": {
+    "tag": 14,
+    "content_type": 9,
+    "object_id": 27
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 68,
+  "fields": {
+    "tag": 15,
+    "content_type": 9,
+    "object_id": 27
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 69,
+  "fields": {
+    "tag": 16,
+    "content_type": 9,
+    "object_id": 28
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 70,
+  "fields": {
+    "tag": 17,
+    "content_type": 9,
+    "object_id": 28
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 71,
+  "fields": {
+    "tag": 14,
+    "content_type": 9,
+    "object_id": 28
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 72,
+  "fields": {
+    "tag": 15,
+    "content_type": 9,
+    "object_id": 28
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 73,
+  "fields": {
+    "tag": 18,
+    "content_type": 7,
+    "object_id": 32
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 74,
+  "fields": {
+    "tag": 19,
+    "content_type": 7,
+    "object_id": 32
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 75,
+  "fields": {
+    "tag": 20,
+    "content_type": 7,
+    "object_id": 32
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 76,
+  "fields": {
+    "tag": 21,
+    "content_type": 7,
+    "object_id": 32
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 77,
+  "fields": {
+    "tag": 22,
+    "content_type": 7,
+    "object_id": 32
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 78,
+  "fields": {
+    "tag": 23,
+    "content_type": 7,
+    "object_id": 32
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 79,
+  "fields": {
+    "tag": 18,
+    "content_type": 9,
+    "object_id": 29
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 80,
+  "fields": {
+    "tag": 19,
+    "content_type": 9,
+    "object_id": 29
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 81,
+  "fields": {
+    "tag": 20,
+    "content_type": 9,
+    "object_id": 29
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 82,
+  "fields": {
+    "tag": 21,
+    "content_type": 9,
+    "object_id": 29
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 83,
+  "fields": {
+    "tag": 22,
+    "content_type": 9,
+    "object_id": 29
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 84,
+  "fields": {
+    "tag": 23,
+    "content_type": 9,
+    "object_id": 29
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 85,
+  "fields": {
+    "tag": 19,
+    "content_type": 7,
+    "object_id": 33
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 86,
+  "fields": {
+    "tag": 24,
+    "content_type": 7,
+    "object_id": 33
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 87,
+  "fields": {
+    "tag": 25,
+    "content_type": 7,
+    "object_id": 33
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 88,
+  "fields": {
+    "tag": 26,
+    "content_type": 7,
+    "object_id": 33
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 89,
+  "fields": {
+    "tag": 27,
+    "content_type": 7,
+    "object_id": 33
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 90,
+  "fields": {
+    "tag": 28,
+    "content_type": 7,
+    "object_id": 33
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 91,
+  "fields": {
+    "tag": 29,
+    "content_type": 7,
+    "object_id": 33
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 92,
+  "fields": {
+    "tag": 19,
+    "content_type": 9,
+    "object_id": 30
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 93,
+  "fields": {
+    "tag": 24,
+    "content_type": 9,
+    "object_id": 30
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 94,
+  "fields": {
+    "tag": 25,
+    "content_type": 9,
+    "object_id": 30
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 95,
+  "fields": {
+    "tag": 26,
+    "content_type": 9,
+    "object_id": 30
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 96,
+  "fields": {
+    "tag": 27,
+    "content_type": 9,
+    "object_id": 30
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 97,
+  "fields": {
+    "tag": 28,
+    "content_type": 9,
+    "object_id": 30
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 98,
+  "fields": {
+    "tag": 29,
+    "content_type": 9,
+    "object_id": 30
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 99,
+  "fields": {
+    "tag": 32,
+    "content_type": 7,
+    "object_id": 34
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 100,
+  "fields": {
+    "tag": 21,
+    "content_type": 7,
+    "object_id": 34
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 101,
+  "fields": {
+    "tag": 30,
+    "content_type": 7,
+    "object_id": 34
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 102,
+  "fields": {
+    "tag": 31,
+    "content_type": 7,
+    "object_id": 34
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 103,
+  "fields": {
+    "tag": 32,
+    "content_type": 9,
+    "object_id": 31
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 104,
+  "fields": {
+    "tag": 21,
+    "content_type": 9,
+    "object_id": 31
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 105,
+  "fields": {
+    "tag": 30,
+    "content_type": 9,
+    "object_id": 31
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 106,
+  "fields": {
+    "tag": 31,
+    "content_type": 9,
+    "object_id": 31
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 107,
+  "fields": {
+    "tag": 33,
+    "content_type": 7,
+    "object_id": 35
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 108,
+  "fields": {
+    "tag": 34,
+    "content_type": 7,
+    "object_id": 35
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 109,
+  "fields": {
+    "tag": 35,
+    "content_type": 7,
+    "object_id": 35
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 110,
+  "fields": {
+    "tag": 36,
+    "content_type": 7,
+    "object_id": 35
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 111,
+  "fields": {
+    "tag": 37,
+    "content_type": 7,
+    "object_id": 35
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 112,
+  "fields": {
+    "tag": 33,
+    "content_type": 9,
+    "object_id": 32
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 113,
+  "fields": {
+    "tag": 34,
+    "content_type": 9,
+    "object_id": 32
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 114,
+  "fields": {
+    "tag": 35,
+    "content_type": 9,
+    "object_id": 32
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 115,
+  "fields": {
+    "tag": 36,
+    "content_type": 9,
+    "object_id": 32
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 116,
+  "fields": {
+    "tag": 37,
+    "content_type": 9,
+    "object_id": 32
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 117,
+  "fields": {
+    "tag": 16,
+    "content_type": 7,
+    "object_id": 36
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 118,
+  "fields": {
+    "tag": 40,
+    "content_type": 7,
+    "object_id": 36
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 119,
+  "fields": {
+    "tag": 38,
+    "content_type": 7,
+    "object_id": 36
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 120,
+  "fields": {
+    "tag": 39,
+    "content_type": 7,
+    "object_id": 36
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 121,
+  "fields": {
+    "tag": 16,
+    "content_type": 9,
+    "object_id": 33
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 122,
+  "fields": {
+    "tag": 40,
+    "content_type": 9,
+    "object_id": 33
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 123,
+  "fields": {
+    "tag": 38,
+    "content_type": 9,
+    "object_id": 33
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 124,
+  "fields": {
+    "tag": 39,
+    "content_type": 9,
+    "object_id": 33
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 125,
+  "fields": {
+    "tag": 34,
+    "content_type": 7,
+    "object_id": 37
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 126,
+  "fields": {
+    "tag": 41,
+    "content_type": 7,
+    "object_id": 37
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 127,
+  "fields": {
+    "tag": 42,
+    "content_type": 7,
+    "object_id": 37
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 128,
+  "fields": {
+    "tag": 43,
+    "content_type": 7,
+    "object_id": 37
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 129,
+  "fields": {
+    "tag": 44,
+    "content_type": 7,
+    "object_id": 37
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 130,
+  "fields": {
+    "tag": 34,
+    "content_type": 9,
+    "object_id": 34
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 131,
+  "fields": {
+    "tag": 41,
+    "content_type": 9,
+    "object_id": 34
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 132,
+  "fields": {
+    "tag": 43,
+    "content_type": 9,
+    "object_id": 34
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 133,
+  "fields": {
+    "tag": 45,
+    "content_type": 9,
+    "object_id": 34
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 134,
+  "fields": {
+    "tag": 46,
+    "content_type": 9,
+    "object_id": 34
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 135,
+  "fields": {
+    "tag": 34,
+    "content_type": 9,
+    "object_id": 35
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 136,
+  "fields": {
+    "tag": 41,
+    "content_type": 9,
+    "object_id": 35
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 137,
+  "fields": {
+    "tag": 43,
+    "content_type": 9,
+    "object_id": 35
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 138,
+  "fields": {
+    "tag": 45,
+    "content_type": 9,
+    "object_id": 35
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 139,
+  "fields": {
+    "tag": 46,
+    "content_type": 9,
+    "object_id": 35
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 140,
+  "fields": {
+    "tag": 47,
+    "content_type": 7,
+    "object_id": 39
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 141,
+  "fields": {
+    "tag": 48,
+    "content_type": 7,
+    "object_id": 39
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 142,
+  "fields": {
+    "tag": 49,
+    "content_type": 7,
+    "object_id": 39
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 143,
+  "fields": {
+    "tag": 19,
+    "content_type": 7,
+    "object_id": 39
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 144,
+  "fields": {
+    "tag": 27,
+    "content_type": 7,
+    "object_id": 39
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 145,
+  "fields": {
+    "tag": 47,
+    "content_type": 9,
+    "object_id": 36
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 146,
+  "fields": {
+    "tag": 48,
+    "content_type": 9,
+    "object_id": 36
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 147,
+  "fields": {
+    "tag": 49,
+    "content_type": 9,
+    "object_id": 36
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 148,
+  "fields": {
+    "tag": 19,
+    "content_type": 9,
+    "object_id": 36
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 149,
+  "fields": {
+    "tag": 27,
+    "content_type": 9,
+    "object_id": 36
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 150,
+  "fields": {
+    "tag": 33,
+    "content_type": 9,
+    "object_id": 37
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 151,
+  "fields": {
+    "tag": 34,
+    "content_type": 9,
+    "object_id": 37
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 152,
+  "fields": {
+    "tag": 35,
+    "content_type": 9,
+    "object_id": 37
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 153,
+  "fields": {
+    "tag": 36,
+    "content_type": 9,
+    "object_id": 37
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 154,
+  "fields": {
+    "tag": 37,
+    "content_type": 9,
+    "object_id": 37
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 155,
+  "fields": {
+    "tag": 50,
+    "content_type": 9,
+    "object_id": 37
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 156,
+  "fields": {
+    "tag": 32,
+    "content_type": 9,
+    "object_id": 38
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 157,
+  "fields": {
+    "tag": 51,
+    "content_type": 9,
+    "object_id": 38
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 158,
+  "fields": {
+    "tag": 21,
+    "content_type": 9,
+    "object_id": 38
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 159,
+  "fields": {
+    "tag": 30,
+    "content_type": 9,
+    "object_id": 38
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 160,
+  "fields": {
+    "tag": 31,
+    "content_type": 9,
+    "object_id": 38
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 161,
+  "fields": {
+    "tag": 52,
+    "content_type": 9,
+    "object_id": 35
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 162,
+  "fields": {
+    "tag": 53,
+    "content_type": 7,
+    "object_id": 40
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 163,
+  "fields": {
+    "tag": 54,
+    "content_type": 7,
+    "object_id": 40
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 164,
+  "fields": {
+    "tag": 55,
+    "content_type": 7,
+    "object_id": 40
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 165,
+  "fields": {
+    "tag": 56,
+    "content_type": 7,
+    "object_id": 40
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 166,
+  "fields": {
+    "tag": 57,
+    "content_type": 7,
+    "object_id": 40
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 167,
+  "fields": {
+    "tag": 30,
+    "content_type": 7,
+    "object_id": 40
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 168,
+  "fields": {
+    "tag": 53,
+    "content_type": 9,
+    "object_id": 39
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 169,
+  "fields": {
+    "tag": 54,
+    "content_type": 9,
+    "object_id": 39
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 170,
+  "fields": {
+    "tag": 55,
+    "content_type": 9,
+    "object_id": 39
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 171,
+  "fields": {
+    "tag": 56,
+    "content_type": 9,
+    "object_id": 39
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 172,
+  "fields": {
+    "tag": 57,
+    "content_type": 9,
+    "object_id": 39
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 173,
+  "fields": {
+    "tag": 58,
+    "content_type": 9,
+    "object_id": 39
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 174,
+  "fields": {
+    "tag": 30,
+    "content_type": 9,
+    "object_id": 39
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 185,
+  "fields": {
+    "tag": 19,
+    "content_type": 7,
+    "object_id": 42
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 186,
+  "fields": {
+    "tag": 22,
+    "content_type": 7,
+    "object_id": 42
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 187,
+  "fields": {
+    "tag": 58,
+    "content_type": 7,
+    "object_id": 42
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 188,
+  "fields": {
+    "tag": 59,
+    "content_type": 7,
+    "object_id": 42
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 189,
+  "fields": {
+    "tag": 60,
+    "content_type": 7,
+    "object_id": 42
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 190,
+  "fields": {
+    "tag": 61,
+    "content_type": 7,
+    "object_id": 42
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 191,
+  "fields": {
+    "tag": 62,
+    "content_type": 7,
+    "object_id": 42
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 192,
+  "fields": {
+    "tag": 19,
+    "content_type": 9,
+    "object_id": 41
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 193,
+  "fields": {
+    "tag": 22,
+    "content_type": 9,
+    "object_id": 41
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 194,
+  "fields": {
+    "tag": 58,
+    "content_type": 9,
+    "object_id": 41
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 195,
+  "fields": {
+    "tag": 59,
+    "content_type": 9,
+    "object_id": 41
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 196,
+  "fields": {
+    "tag": 60,
+    "content_type": 9,
+    "object_id": 41
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 197,
+  "fields": {
+    "tag": 61,
+    "content_type": 9,
+    "object_id": 41
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 198,
+  "fields": {
+    "tag": 62,
+    "content_type": 9,
+    "object_id": 41
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 199,
+  "fields": {
+    "tag": 63,
+    "content_type": 9,
+    "object_id": 41
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 200,
+  "fields": {
+    "tag": 64,
+    "content_type": 7,
+    "object_id": 43
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 201,
+  "fields": {
+    "tag": 65,
+    "content_type": 7,
+    "object_id": 43
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 202,
+  "fields": {
+    "tag": 66,
+    "content_type": 7,
+    "object_id": 43
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 203,
+  "fields": {
+    "tag": 22,
+    "content_type": 7,
+    "object_id": 43
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 204,
+  "fields": {
+    "tag": 58,
+    "content_type": 7,
+    "object_id": 43
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 205,
+  "fields": {
+    "tag": 60,
+    "content_type": 7,
+    "object_id": 43
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 206,
+  "fields": {
+    "tag": 64,
+    "content_type": 9,
+    "object_id": 42
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 207,
+  "fields": {
+    "tag": 65,
+    "content_type": 9,
+    "object_id": 42
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 208,
+  "fields": {
+    "tag": 66,
+    "content_type": 9,
+    "object_id": 42
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 209,
+  "fields": {
+    "tag": 67,
+    "content_type": 9,
+    "object_id": 42
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 210,
+  "fields": {
+    "tag": 22,
+    "content_type": 9,
+    "object_id": 42
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 211,
+  "fields": {
+    "tag": 58,
+    "content_type": 9,
+    "object_id": 42
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 212,
+  "fields": {
+    "tag": 60,
+    "content_type": 9,
+    "object_id": 42
+  }
+}
+]

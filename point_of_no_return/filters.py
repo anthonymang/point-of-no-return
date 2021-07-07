@@ -28,21 +28,12 @@ for music in Music.objects.all():
 #     label_list.append(music.released_by)
 
 class MusicFilter(django_filters.FilterSet):
-    # start_date = DateFilter(field_name='release_date', label='Year is greater than', lookup_expr='gte')
-    # end_date = DateFilter(field_name='release_date', label='Year is less than', lookup_expr='lte')
     description = CharFilter(field_name = 'description', label='Description',lookup_expr='icontains')
     artist = MultipleChoiceFilter(field_name='artist', choices = artist_list, label= 'artist')
     release_date = DateFromToRangeFilter(field_name = 'release_date')
     tags = MultipleChoiceFilter(field_name = 'tags', choices = tag_list)
     released_by = ChoiceFilter(field_name = 'released_by', choices = label_list)
-    # tags = TagsFilter
 
-    # filter_overrides = {
-    #     TaggableManager: {
-    #          'filterset_class': AllValuesFilter,
-    #          'extra': 'icontains'
-    #     }
-    # }
 
     class Meta:
         model = Music

@@ -201,7 +201,6 @@ def music_create(request, form_uri):
     if request.method == 'POST':
         print('in post request')
         music = get_object_or_404(Music, spotify_uri=form_uri)
-
         
         form = MusicCreateForm(request.POST, instance=music)
         if form.is_valid():

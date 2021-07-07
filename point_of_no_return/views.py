@@ -171,7 +171,7 @@ def music_add(request, uri):
                 res = requests.get(url=album_url, headers=headers)
                 album_json = json.dumps(res.json())
                 album = json.loads(album_json)
-                music = Music.objects.create(spotify_uri=form_uri, name=album['name'],album_art = album['images'][0]['url'], released_by = album['label'], release_date = album['release_date'], user = request.user, curator = Curator.objects.get(user=request.user))
+                music = Music.objects.create(spotify_uri=form_uri, name=album['name'],album_art = album['images'][0]['url'], released_by = album['label'], release_date = album['release_date'], user = request.user)
                 music.artist.add(Artist.objects.get(spotify_uri=uri))
 
  
@@ -183,7 +183,7 @@ def music_add(request, uri):
                 track_json = json.dumps(res.json())
                 track = json.loads(track_json)
 
-                music = Music.objects.create(spotify_uri=form_uri, name=track['name'],album_art = track['images'][0]['url'], released_by = track['label'], release_date = track['release_date'], user = request.user, curator = Curator.objects.get(user=request.user))
+                music = Music.objects.create(spotify_uri=form_uri, name=track['name'],album_art = track['images'][0]['url'], released_by = track['label'], release_date = track['release_date'], user = request.user)
                 music.artist.add(Artist.objects.get(spotify_uri=uri))
 
                 return redirect(f'/database/music/finish/{form_uri}')

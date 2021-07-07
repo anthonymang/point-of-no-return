@@ -1,0 +1,30 @@
+{% extends 'base.html' %} {% load static %} {% block content %}
+<h1 class="title center">{{ artist.name }}</h1>
+
+<div class ='columns'>
+
+    <div class='column is-6'>
+
+    <div class='embed is-centered'>{{ artist.spotify_embed | safe }}
+    </div>
+</div>
+<div class='column is-6 artist-info'>
+    <ul>
+      <li>{{ artist.bio }}</li>
+      <li>Location: {{ artist.location }}</li>
+      {% if artist.discogs_link %}
+      <li><a href="{{artist.discogs_link}}">Find on Discogs</a></li>
+      {% endif %} {% if artist.bandcamp_link %}
+      <li><a href="{{artist.bandcamp_link}}">Find on Bandcamp</a></li>
+      {% endif %}
+    </ul>
+    </div>
+</div>
+
+    <div class="music-tags">
+      {% for tag in artist.tags.all %}
+      <a href="/tags/{{tag}}"><span class="tag is-dark">{{ tag }}</span></a>
+      {% endfor %}
+    </div>
+</div>
+{% endblock %}

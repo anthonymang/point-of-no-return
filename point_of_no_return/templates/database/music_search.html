@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class='find-artist'>
+    <h1 class='title find-artist'>Add Music To The Database</h1>
+   
+              <ul class='instructions-list'>
+           <li>Go to your artist's album/single page on Spotify</li>
+           <li>Copy their Spotify URI</li>
+           <li>Paste the URI in the box below</li>
+           <li>***Delete "spotify:album:" from your URI</li>
+           <li>ONLY SUBMIT WHAT COMES AFTER "spotify:album:"***</li>
+   
+           </ul>
+   
+   
+   
+   </div>
+    <h1></h1>
+    <form action="{% url 'music_add' uri %}" method="POST" class='find-form'>
+        {% csrf_token %}
+        {{ form | crispy }}
+        <input type="submit" value="Submit" class='button is-white'>
+    </form>
+{% endblock %}

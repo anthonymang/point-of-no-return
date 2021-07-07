@@ -32,7 +32,7 @@ def login_view(request):
             if user is not None:
                 if user.is_active:
                     login(request, user)
-                    return HttpResponseRedirect('/index')
+                    return HttpResponseRedirect('/')
                 else:
                     print('The account has been disabled.')
                     return HttpResponseRedirect('/signup')
@@ -41,7 +41,7 @@ def login_view(request):
             return HttpResponseRedirect('/login')
     else: # it was a get request so send the emtpy login form
         form = AuthenticationForm()
-        return render(request, 'login.html', {'form': form})
+        return render(request, 'auth/login.html', {'form': form})
 
 
 
@@ -58,7 +58,7 @@ def signup(request):
             return redirect('/index')
     else:
         form = UserCreationForm()
-        return render(request, 'signup.html', {'form': form})
+        return render(request, 'auth/signup.html', {'form': form})
 
 @login_required
 def add(request):
@@ -100,10 +100,10 @@ def add(request):
                 artist.save()
                 print('----- ARTIST -----', artist)
 
-                return redirect(f'/artist/create/{uri}')
+                return redirect(f'/database/artist/create/{uri}')
 
             else:
-                return redirect(f'/artist/new-music/{uri}')
+                return redirect(f'/database/music/{uri}')
 
         else:
             print('----Error in artist create----')
@@ -112,7 +112,7 @@ def add(request):
     else:
         form = ArtistSearchForm()
 
-    return render(request, 'add.html', {'form': form})
+    return render(request, 'database/add.html', {'form': form})
 
 @login_required
 def artist_create(request, uri):
@@ -126,16 +126,16 @@ def artist_create(request, uri):
 
             artist.save()
             form.save_m2m()
-            return redirect(f'/artist/new-music/{uri}')
+            return redirect(f'/database/music/{uri}')
         else:
             print('form not valid')
             print('Errors: ', form.errors, form.non_field_errors)
-            return redirect(f'/artist/create/{uri}')
+            return redirect(f'/database/artist/create/{uri}')
 
     else:
         print(uri)
         form = ArtistCreateForm()
-    return render(request, 'artist_create.html', {'form': form, 'uri':uri})
+    return render(request, 'database/artist_create.html', {'form': form, 'uri':uri})
 
 
 @login_required
@@ -179,7 +179,7 @@ def music_add(request, uri):
                 music.artist.add(Artist.objects.get(spotify_uri=uri))
 
  
-                return redirect(f'/artist/finish/{form_uri}')
+                return redirect(f'/database/music/finish/{form_uri}')
 
             if search_type == 'Track':
                 track_url = f'https://api.spotify.com/v1/tracks/{form_uri}?market=US'
@@ -190,14 +190,14 @@ def music_add(request, uri):
                 music = Music.objects.create(spotify_uri=form_uri, name=track['name'],album_art = track['images'][0]['url'], released_by = track['label'], release_date = track['release_date'], user = request.user, curator = Curator.objects.get(user=request.user))
                 music.artist.add(Artist.objects.get(spotify_uri=uri))
 
-                return redirect(f'/artist/finish/{form_uri}')
+                return redirect(f'/database/music/finish/{form_uri}')
 
             else:
                 return response('<h1>Redirecting to music page</h1>')
     else:
         form = MusicSearchForm()
     
-    return render(request, 'music_search.html', {'form': form, 'uri': uri})
+    return render(request, 'database/music_search.html', {'form': form, 'uri': uri})
 
 @login_required
 def music_create(request, form_uri):
@@ -217,28 +217,28 @@ def music_create(request, form_uri):
         else:
             print('form not valid')
             print('Errors: ', form.errors, form.non_field_errors)
-            return redirect(f'/artist/finish/{form_uri}')
+            return redirect(f'/database/music/finish/{form_uri}')
 
     
     else:
         print('world')
         form = MusicCreateForm()   
     
-    return render(request, 'music_create.html', {'form': form, 'form_uri': form_uri})
+    return render(request, 'database/music_create.html', {'form': form, 'form_uri': form_uri})
 
 def music_show(request, uri):
     music = get_object_or_404(Music, spotify_uri=uri)
     # artist = Artist.objects.filter(music=music)
     # print(artist)
 
-    return render(request, 'music_show.html', {'music': music})
+    return render(request, 'show/music_show.html', {'music': music})
 
 
 def artist_show(request, uri):
     artist = get_object_or_404(Artist, spotify_uri=uri)
     music = Music.objects.filter(artist=artist)
 
-    return render(request, 'artist_show.html', {'artist': artist, 'music': music})
+    return render(request, 'show/artist_show.html', {'artist': artist, 'music': music})
 
 def search_music(request):
     music = Music.objects.all()
@@ -250,4 +250,4 @@ def tag_show(request, slug):
     music = Music.objects.filter(tags__name__in=[slug])
     artists = Artist.objects.filter(tags__name__in=[slug])
 
-    return render(request, 'tag_show.html', {'slug': slug, 'music': music, 'artists': artists})
+    return render(request, 'show/tag_show.html', {'slug': slug, 'music': music, 'artists': artists})

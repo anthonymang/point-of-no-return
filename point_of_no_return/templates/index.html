@@ -2,11 +2,15 @@
 {% load static %}
 {% block content %}
 
-    <header>
+<h1 class='title center'>welcome to point of no return</h1>
+<p class='about-info center'>point of no return is a collaborative music library built for music diggers and those who love to share music, new and old, with others. 
+</p><p class='about-info center'>you can use our search tool to dig into music from different genres, locations, labels, and curators. </p>
 
-      </header>
-      <hr />
-    <h1>INDEX PAGE</h1>
-    <h3>Hello!!!!!</h3>
+
+        <h1 class='title is-4 center'><a href="{% url 'add' %}">Add Music to the Database</a></h1>
+
+
+        <h1 class='title is-4 center'><a href="{% url 'search_filter' %}">Search the Database</a></h1>
+
 
 {% endblock %}

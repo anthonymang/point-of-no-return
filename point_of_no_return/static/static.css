@@ -4,6 +4,7 @@ body {
     background-color:whitesmoke;
     min-height: 92vh;
     margin-top: 8vh;
+    color: black
 }
 
 h1 {
@@ -28,6 +29,7 @@ a{
 
 a:hover {
     text-decoration: underline;
+    color: initial;
 }
 
 .is-child {
@@ -81,11 +83,51 @@ a:hover {
     justify-content: center;
     align-items: center;
     vertical-align: center;
+    flex-direction: column;
 }
 .music-tags{
     margin-left: 5%;
+    display: block;
 }
 
 .embed {
     margin-left: 10%;
+    width: 40vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.find-artist {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.instructions-list{
+    list-style-type:initial;
+}
+
+.find-form{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.artist-info{
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+.center{
+    text-align: center;
+}
+
+.about-info{
+    justify-content: space-around;
+    align-items: center;
+    text-align: center; 
 }

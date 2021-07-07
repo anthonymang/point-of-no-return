@@ -1,11 +1,12 @@
 {% extends 'base.html' %}
 {% load static %}
+{% load crispy_forms_tags %}
 {% block content %}
 
-    <h2>Add the rest of the music info here:</h2>
-    <form action = "/artist/finish/{{form_uri}}/" method="POST">
+    <h2 class='title'>Add the rest of the music info here:</h2>
+    <form action = "{% url 'music_create' form_uri %}" method="POST" class='find-form'>
         {% csrf_token %}
-        {{ form }}
+        {{ form | crispy}}
         {{ form.errors }}
         {{ form.non_field_errors }}
         <input type="submit" value="Submit">

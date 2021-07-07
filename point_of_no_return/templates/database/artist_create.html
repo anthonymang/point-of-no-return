@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% load static %}
+{% block content %}
+
+    <h2 class='title'>Looks like that artist wasn't in the database - but they are now. Add the rest of their info here:</h2>
+    <form action="{% url 'artist_create' uri %}" method="POST" class='find-form'>
+    {% csrf_token %}
+    {{form | crispy}}
+    {{ form.errors }}
+    {{ form.non_field_errors }}
+    <input type="submit" value="Submit" class='button is-white'>
+    </form>
+{% endblock %}

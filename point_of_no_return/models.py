@@ -64,7 +64,7 @@ class Music(models.Model):
     album_art = models.URLField(blank = True, max_length=1000)
     release_type = models.CharField(blank =True, max_length=10, choices = release_types)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
-    curator = models.ForeignKey(Curator, on_delete=models.CASCADE)
+    curator = models.ForeignKey(Curator, on_delete=models.CASCADE, blank=True, null=True)
     artist = models.ManyToManyField(Artist, related_name = 'artists')
     comments = models.ForeignKey(Comment, null = True, blank=True, on_delete=models.CASCADE)
     tags = TaggableManager()

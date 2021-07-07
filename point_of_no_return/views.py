@@ -98,7 +98,6 @@ def add(request):
                 artist.spotify_link = this_artist['external_urls']['spotify']
                 artist.artist_img = this_artist['images'][0]['url']
                 artist.save()
-                print('----- ARTIST -----', artist)
 
                 return redirect(f'/database/artist/create/{uri}')
 
@@ -117,7 +116,6 @@ def add(request):
 @login_required
 def artist_create(request, uri):
     artist = get_object_or_404(Artist, spotify_uri=uri)
-    print(artist)
     if request.method == 'POST':
         print('in post request')
         form = ArtistCreateForm(request.POST, instance=artist)
@@ -133,7 +131,6 @@ def artist_create(request, uri):
             return redirect(f'/database/artist/create/{uri}')
 
     else:
-        print(uri)
         form = ArtistCreateForm()
     return render(request, 'database/artist_create.html', {'form': form, 'uri':uri})
 
@@ -170,7 +167,6 @@ def music_add(request, uri):
 
 
             if search_type == 'Album':
-                print('Search Type Album')
                 album_url = f'https://api.spotify.com/v1/albums/{form_uri}?market=US'
                 res = requests.get(url=album_url, headers=headers)
                 album_json = json.dumps(res.json())
@@ -221,15 +217,13 @@ def music_create(request, form_uri):
 
     
     else:
-        print('world')
         form = MusicCreateForm()   
     
     return render(request, 'database/music_create.html', {'form': form, 'form_uri': form_uri})
 
 def music_show(request, uri):
     music = get_object_or_404(Music, spotify_uri=uri)
-    # artist = Artist.objects.filter(music=music)
-    # print(artist)
+
 
     return render(request, 'show/music_show.html', {'music': music})
 

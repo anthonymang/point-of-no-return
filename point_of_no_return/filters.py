@@ -21,7 +21,6 @@ for music in Music.objects.all():
     if music.released_by not in label_list:
         label_list.append((music.released_by, music.released_by))
 
-print(tag_list)
 
 
 
